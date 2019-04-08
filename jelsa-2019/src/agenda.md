@@ -2,7 +2,7 @@
 
 *The use of Open-Source, Real-Time Geo-Visualization in Monitoring Vectors and Vector Borne Diseases, Jelsa, Croatia, 13-17 May 2019*
 
-## [DAY 1](day1.md)
+## [Monday](day1.md)
 INTRODUCTION
   * Course objectives & setup [lectures & hands-on sessions]
   * [Course resources and materials](resources.md)
@@ -21,13 +21,13 @@ QGIS
   * [Importing data from Excel files & overlaying it over Google Maps](importing-excel.md)
   * [Handling QGIS plugins](qgis-setup.md)
 
-## [DAY 2](day2.md)
+## [Tuesday](day2.md)
   * [Managing data attributes](managing-data-attributes.md)
   * [Creating buffers (zoning)](buffers.md)
   * [Collecting geographical coordinates](collect-lon-lat.md)
   * [Editing an existing layer (add, update, delete features)](edit-layer.md)
 
-## [DAY 3](day3.md)
+## [Wednesday](day3.md)
   * [Mapping number of cases in a grid](nb-cases-grid.md)
   * [Dissolving polygons](dissolving-poly.md)
   * [Mapping number of cases by administrative boundaries](nb-cases-admin.md)
