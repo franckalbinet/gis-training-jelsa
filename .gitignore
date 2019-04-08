@@ -1,0 +1,37 @@
+# tmp files
+*.log
+*~
+
+# local files
+node_modules
+bower_components
+ipynb-inria/
+python-for-iot/
+python-fundamentals/
+.ipynb_checkpoints/
+
+# ide files
+*.iml
+.idea
+.project
+
+# vim files
+.*.swp
+
+# builds ignore
+analytical.js
+global-24hrs.js
+
+# mac
+.DS_Store
+
+# python files
+*.pyc
+
+# ctag
+.tags
+
+# files for gh-pages and grunt-contrib-jasmine
+.grunt
+
+/.vs
