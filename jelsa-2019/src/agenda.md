@@ -31,5 +31,7 @@ QGIS
   * [Mapping number of cases in a grid](nb-cases-grid.md)
   * [Dissolving polygons](dissolving-poly.md)
   * [Mapping number of cases by administrative boundaries](nb-cases-admin.md)
+  * [Interpolation techniques introduction](interpolation.md)
+  * [Time series animation](ts-animation.md)
   
 
