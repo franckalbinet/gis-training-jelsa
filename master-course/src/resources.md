@@ -1,9 +1,9 @@
 > [GIS fundamentals | Training Course](agenda.md) ▸ **Resources**
 
 ## QGIS OFFICIAL DOCUMENTATION
-  * Gentle GIS Introduction [http://docs.qgis.org/2.14/en/docs/gentle_gis_introduction/](http://docs.qgis.org/2.14/en/docs/gentle_gis_introduction/)
-  * QGIS Training manual [http://docs.qgis.org/2.14/en/docs/training_manual/](http://docs.qgis.org/2.14/en/docs/training_manual/)
-  * QGIS User Guide[http://docs.qgis.org/2.14/en/docs/user_manual/](http://docs.qgis.org/2.14/en/docs/user_manual/)
+  * A gentle GIS introduction [https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/](https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/)
+  * QGIS Training manual [https://docs.qgis.org/3.4/en/docs/training_manual/](https://docs.qgis.org/3.4/en/docs/training_manual/)
+  * QGIS User Guide[https://docs.qgis.org/3.4/en/docs/user_manual/](https://docs.qgis.org/3.4/en/docs/user_manual/)
 
 ## COORDINATE REFERENCE SYSTEM & MAP PROJECTIONS
 * Notion of map scale [(https://en.wikipedia.org/wiki/Scale_(map))](https://en.wikipedia.org/wiki/Scale_(map))
@@ -23,7 +23,7 @@
 * [http://www.naturalearthdata.com/](http://www.naturalearthdata.com/)
 * [http://www.gadm.org/](http://www.gadm.org/)
 
-## ANIMATION WITH QGIS (CARTO might be a better alternative)
+## ANIMATION WITH QGIS
 * [http://michaelminn.com/linux/mmqgis/](http://michaelminn.com/linux/mmqgis/)
 * [http://undertheraedar.blogspot.co.at/2014/12/simple-animations-with-qgis-long.html](http://undertheraedar.blogspot.co.at/2014/12/simple-animations-with-qgis-long.html)
 * [https://geouk.wordpress.com/2012/09/05/qgis-time-manager/](https://geouk.wordpress.com/2012/09/05/qgis-time-manager/)
