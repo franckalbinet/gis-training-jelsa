@@ -2,6 +2,8 @@
 
 *The use case of animal diseases monitoring, Accra, Ghana, 10-14 October 2016*
 
+*The use of Open-Source, Real-Time Geo-Visualization in Monitoring Vectors and Vector Borne Diseases, Jelsa, Croatia, 13-17 May 2019*
+
 ## [Day 1](day1.md)
 INTRODUCTION
   * Course objectives & setup [lectures & practical classes]
