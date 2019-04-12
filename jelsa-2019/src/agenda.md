@@ -8,6 +8,8 @@ INTRODUCTION
   * [Course resources and materials](resources.md)
 
 FUNDAMENTAL GIS CONCEPTS
+
+[see `/ppt` folder for associated presentations]
   * Geographical data representation: vector, raster (image)
   * Layers & Geometry types (points, lines & polygons)
   * Coordinate Reference System (CRS)
