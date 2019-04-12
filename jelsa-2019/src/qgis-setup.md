@@ -3,7 +3,7 @@
 ## QGIS install
 The **Windows QGIS LTS (Long Term Support) 3.4** should be installed via its standalone installer - [click here to download](http://qgis.org/downloads/QGIS-OSGeo4W-3.4.6-2-Setup-x86_64.exe).
 
-*Important remark: It is also possible to install it under Linux and MacOSX but given the training course format (more than 30 people), we will have only limited time to dedicate to the install hence the constraint to focus on one single Operating System, namely Windows (10 preferably if possible). Support will be provided to install it under Linux or MacOSX if required, but outside official workshop hours.*
+*Important remark: It is also possible to install it under Linux and MacOSX but given the training course format (more than 30 people), we will have only limited time to dedicate to the install hence the constraint to focus on one single Operating System, namely Windows (10 preferably and if possible). Support will be provided to install it under Linux or MacOSX if required, but outside official workshop hours.*
 
 
 ## QGIS plugins install
