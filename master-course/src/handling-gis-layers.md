@@ -147,6 +147,7 @@ Check: Selected features only)
 
 Then click "Apply"
 ```
+![select-by-location.PNG](img/select-by-location.PNG)
 
 ### 5. Changing order of layers
 
