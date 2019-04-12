@@ -122,7 +122,7 @@ then in [input text box], write:
 
 #### 4.2 Select by spatial query
 
-First open the **Processing Toolbox**. This toolbox centralizes in this new QGIS 3 version many of the analytical tools (for both vector and raster data) previously scattered here and there in previous QGIS version or only available through specific QGIS Plugins. To open it, simply:
+First open the **Processing Toolbox**. This toolbox centralizes in this new QGIS 3 version many of the analytical tools (for both vector and raster data) previously scattered here and there in previous QGIS versions or only available through specific QGIS Plugins. To open it, simply:
 
 ```
 [In QGIS top menu] 
