@@ -20,7 +20,7 @@ data/ne_110m_rivers_lake_centerlines/
 ```
 ## Exercise outline & memos
 
-**IMPORTANT PRELIMINARY NOTE:** Create a favorite to the workhop downloaded folder for easy access. To do so, simply browse your file system and in:
+**IMPORTANT PRELIMINARY NOTE:** Create a favorite to the workshop downloaded folder for easy access. To do so, simply browse your file system and in:
 
 ```
 [QGIS Browser] 
