@@ -129,35 +129,33 @@ First open the **Processing Toolbox**. This toolbox centralizes in this new QGIS
 Processing ▸ Toolbox 
 ```
 
+Now, select a country, let's say "Brazil" then: 
 
 ```
-Install "Spatial Query Plugin" if not already installed. If/when installed the plugin needs to be
-activated (checkbox on).
+[In the Processing Toolbox]
+Vector Selection ▸ Select by location
 
-Select a country, let's say "Brazil" 
-
-[In QGIS top menu] 
-Vector ▸ Spatial Query ▸ Spatial Query
-
-[In "Select source features from" dropdown]
+[In "Select features from" dropdown]
 Choose: "ne_110m_populated_places"
 
 [In "Where the features" dropdown]
-Choose: "Within"
+Choose: "are within"
 
-[In "Reference features of"]
-Choose: "ne_110m_admin_0_countries" (check selected geometries checkbox)
+[In "By comparing to the features from"]
+Choose: "ne_110m_admin_0_countries" 
+Check: Selected features only)
 
 Then click "Apply"
 ```
 
-### 6. Accessing layer properties
+### 5. Changing order of layers
+
 ```
 [In Layers Panel]
 Simply drag and drop layers you want to move up or down in layers stack
 ```
 
-### 5. Changing order of layers
+### 6. Accessing layer properties
 ```
 [In Layers Panel]
 Click right on layer of interest ▸ Properties
