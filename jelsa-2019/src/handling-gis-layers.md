@@ -161,17 +161,17 @@ Simply drag and drop layers you want to move up or down in layers stack
 Click right on layer of interest ▸ Properties
 ```
 then, on left side of the properties window, you will find a bunch of choice/option, such as:
-* General
-* Style
-* Labels
+* Information
+* Source
+* Symbology
 * ...
 
-We will only focus on "Style" properties for now.
+We will only focus on "Symbology" properties for now.
 
 ### 6. Styling map features
 ```
 Open layer properties
-Click "Style" option and play around with colours to your liking;
+Click "Symbology" option and play around with colours to your liking;
 ```
 
 ### 7. Saving open layers and styles as QGIS project
