@@ -8,11 +8,15 @@ INTRODUCTION
   * [Course resources and materials](resources.md)
 
 FUNDAMENTAL GIS CONCEPTS
+
+Presentations can be found [here](https://github.com/franckalbinet/gis-training-jelsa/tree/master/jelsa-2019/ppt) covering the following topics:
   * Geographical data representation: vector, raster (image)
   * Layers & Geometry types (points, lines & polygons)
   * Coordinate Reference System (CRS)
   * Notion of scale
   * Different maps for different purposes: thematic mapping, Digital Elevation Models, topographic, ...
+  
+
 
 QGIS
   * [Set up](qgis-setup.md)
