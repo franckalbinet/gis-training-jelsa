@@ -20,6 +20,8 @@ data/ne_110m_rivers_lake_centerlines/
 ```
 ## Exercise outline & memos
 
+**IMPORTANT PRELIMINARY NOTE:** Create a favorite to the workhop downloaded folder for easy access
+
 ### 1. Opening a shapefile
 
 Option 1:
@@ -30,7 +32,13 @@ Layer ▸ Add Layer ▸ Add Vector Layer
 
 Option 2:
 ```
-[In QGIS side toolbar] 
+[In QGIS toolbar] 
+Add Vector Layer
+```
+
+Option 3:
+```
+[In QGIS toolbar] 
 Add Vector Layer
 ```
 Hint: *function of icons will appear when hovering over it*
