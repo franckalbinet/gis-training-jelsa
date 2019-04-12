@@ -48,7 +48,7 @@ Add Vector Layer
 ```
 Hint: *function of icons will appear when hovering over it*
 
-[Check out QGIS User Guide for more information](http://docs.qgis.org/2.14/en/docs/training_manual/introduction/preparation.html)
+[Check out QGIS User Guide for more information](https://docs.qgis.org/3.4/en/docs/training_manual/index.html)
 
 Shapefiles to be open in this exercise are:
 ```
@@ -59,7 +59,7 @@ data/ne_110m_rivers_lake_centerlines/ne_110m_rivers_lake_centerlines.shp
 Warning: *note that what we called a shapefile is actually a combination of files with the following extensions: .shx, .shp, .dbf, ... When we want to open a shapefile in GIS software, we are opening the .shp one.* [See wikipedia entry for shapefile](https://en.wikipedia.org/wiki/Shapefile).
 
 ### 2. Showing attribute table
-A GIS layer has always two facets, representations: geographical (the map istself) and attribute table (tabular) representations.
+A GIS layer has always two facets, representations: geographical (the map itself) and attribute table (tabular) representations.
 
 In the attribute table, each row corresponds to a map feature (a point, a line or a polygon) and columns attributes recorded for this feature (population, type of disease, ...).
 
@@ -102,21 +102,22 @@ Hint: *you will find a series of buttons with magnifiers icon. Play around ...*
 Option 1:
 ```
 [In QGIS top menu] 
-View ▸ Select ▸ ...
+Edit ▸ Select ▸ ...
 ```
 
 Option 2:
 ```
 [In QGIS top toolbar] 
 ```
+
 #### 4.1 Select by attribute value
 ```
 [In QGIS top menu] 
-View ▸ Select ▸ Select by Expression ...
+Edit ▸ Select ▸ Select by Expression ...
 ```
 then in [input text box], write:
 ```
-"pop_est"  > 50000000  and click 'Select' button
+"pop_est"  > 50000000  and click 'Select features' button.
 ```
 
 #### 4.2 Select by spatial query
