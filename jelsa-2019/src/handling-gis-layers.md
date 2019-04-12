@@ -20,7 +20,12 @@ data/ne_110m_rivers_lake_centerlines/
 ```
 ## Exercise outline & memos
 
-**IMPORTANT PRELIMINARY NOTE:** Create a favorite to the workhop downloaded folder for easy access
+**IMPORTANT PRELIMINARY NOTE:** Create a favorite to the workhop downloaded folder for easy access. To do so, simply browse your file system and in:
+
+```
+[QGIS Browser] 
+Click right to your folder of interest and ▸ Add as a Favorite
+```
 
 ### 1. Opening a shapefile
 
@@ -32,8 +37,8 @@ Layer ▸ Add Layer ▸ Add Vector Layer
 
 Option 2:
 ```
-[In QGIS toolbar] 
-Add Vector Layer
+[In QGIS Browser] 
+Double click on the file/layer of interest or drag and drop
 ```
 
 Option 3:
