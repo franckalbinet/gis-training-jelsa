@@ -32,7 +32,7 @@
 * [https://geouk.wordpress.com/2012/09/05/qgis-time-manager/](https://geouk.wordpress.com/2012/09/05/qgis-time-manager/)
 
 ## GLOSSARY
-* [QGIS User Interface Overview: Top Toolbars, Map Canvas, Layers list, Status Bar and side toolbar]https://docs.qgis.org/3.4/en/docs/user_manual/introduction/qgis_gui.html)
+* [QGIS User Interface Overview: Top Toolbars, Map Canvas, Layers list, Status Bar and side toolbar](https://docs.qgis.org/3.4/en/docs/user_manual/introduction/qgis_gui.html)
 * [Shapefile - the de facto GIS vector format but proprietary](https://en.wikipedia.org/wiki/Shapefile)
 * [GeoPackage - the new GIS vector open format](https://www.geopackage.org/)
 
