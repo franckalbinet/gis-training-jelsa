@@ -15,8 +15,11 @@
 * Pre-attentive processing [https://www.youtube.com/watch?v=UFNzATczkDU](https://www.youtube.com/watch?v=UFNzATczkDU)
 * Colour brewer [http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
 
-## VARIOUS TYPE OF MAPS
-* Maps for different purposes: [topographic](https://en.wikipedia.org/wiki/Topographic_map), [choropleth (thematic)](https://bl.ocks.org/mbostock/4060606), [thematic-bubble-map](https://bost.ocks.org/mike/bubble-map/), [Bird Flue heatmap time animation](https://franckalbinet.carto.com/viz/87f08d5e-953c-11e6-b30e-0e3ebc282e83/embed_map), ...
+## VARIOUS TYPE OF MAPS FOR DIFFERENT PURPOSES
+* [topographic](https://en.wikipedia.org/wiki/Topographic_map)
+* [choropleth (thematic)](https://bl.ocks.org/mbostock/4060606)
+* [thematic-bubble-map](https://bost.ocks.org/mike/bubble-map/)
+* [Heatmap time animation - Bird Flue cases over time worldwide 2004-2016](https://franckalbinet.carto.com/viz/87f08d5e-953c-11e6-b30e-0e3ebc282e83/embed_map), ...
 * [Digital Elevation Model (DEM)](https://en.wikipedia.org/wiki/Digital_elevation_model)
 
 ## GEOGRAPHICAL DATA SOURCES
