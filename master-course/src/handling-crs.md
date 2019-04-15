@@ -58,7 +58,7 @@ Now, your layer (the world countries) should be re-projected into the newly sele
 
 Notice as well that in the status bar (bottom part of the screen), coordinates are not anymore in lon, lat but in x,y meters.
 
-* **Qestions:**
+**Qestions:**
 
 * What are the pros and cons of such projection?
 * Is the CRS of your layer/shapefile changed?
