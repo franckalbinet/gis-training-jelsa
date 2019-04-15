@@ -85,3 +85,13 @@ then you change the CRS via the CRS dropdown and save it (preferably with an exp
 
 ### 4. [BONUS] Assessing how biased and subjective could be the choice of a CRS
 
+Open the following project:
+
+```
+[In QGIS top menu] 
+Project ▸ Open  ▸ "data\ne_110m_admin_0_countries\demo\projections-mismatch project"
+```
+
+The same layer (world countries) have been created projected in Mercator and Eckert IV CRS and projection on the fly disabled. Look how different they are...
+
+
