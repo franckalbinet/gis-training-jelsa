@@ -49,12 +49,21 @@ You should see the CRS used to reproject "On the fly" every layers opened (for n
 As shown below: 
 
 * in `filter` write: `Google Maps Global Mercator` to find out the CRS of interest;
-* select it in the `Coordinate Reference System` list and apply.
+* select it in the `Coordinate Reference System` list and apply/OK.
 
 ![img/project-on-the-fly.PNG](img/project-on-the-fly.PNG)
 
+Now, your layer (the world countries) should be re-projected into the newly selected "On the fly" projection.
 
-Project ▸ Project Properties ▸ Add Vector Layer  ▸ CRS (tab) ▸ Check "Enable on the fly CRS transformation"
+* **Qestions:*
+
+* What are the pros and cons of such projection?
+* Is the CRS of your layer/shapefile changed?
+
+Play around with various CRS to see their variety.
+
+**Now, I know your burning question!! Which one to use?**
+
 
 ### 1. Changing CRS on the fly
 Open: 
