@@ -4,8 +4,8 @@
 
 ## [Day 1](day1.md)
 INTRODUCTION
-  * Course objectives & setup [lectures & hands-on sessions]
-  * [Course resources and materials](resources.md)
+  * Course objectives & setup [lectures & hands-on sessions] - OK
+  * [Course resources and materials](resources.md) - OK
 
 FUNDAMENTAL GIS CONCEPTS
 
@@ -19,9 +19,9 @@ Presentations can be found [here](https://github.com/franckalbinet/gis-training-
 
 
 QGIS
-  * [Set up](qgis-setup.md)
-  * [Handling GIS layers (opening, overlaying, selecting features, basic styling and saving as project)](handling-gis-layers.md)
-  * [Handling Coordinate Reference Systems (CRS)](handling-crs.md)
+  * [Set up](qgis-setup.md) - OK
+  * [Handling GIS layers (opening, overlaying, selecting features, basic styling and saving as project)](handling-gis-layers.md) - OK
+  * [Handling Coordinate Reference Systems (CRS)](handling-crs.md) - OK
   * [Importing data from Excel files & overlaying it over Google Maps](importing-excel.md)
   * [Handling QGIS plugins](qgis-setup.md)
 
