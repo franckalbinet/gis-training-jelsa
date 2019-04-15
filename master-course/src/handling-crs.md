@@ -35,6 +35,24 @@ Click right on the layer recently opened to access its ▸ 'Properties' then sel
 ### 2. Layer vs. QGIS Project CRS
 It is quite frequent to get GIS layers (either vector or raster ones) in different CRS systems. In such situation, one solution is to transform all layers into a single, unique CRS. However, this is not always convenient and might be a cumbersome process for instance, if you have many layers and you just want to quickly visualize, explore these layers. To address this use case, QGIS transform "On the fly" all GIS layers opened into a single one; by default the CRS of the first layer opened but it can be configured as well.
 
+At this point, you should have already the `data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp` layer in your `[QGIS layers panel]`.
+
+Now: 
+
+```
+[In QGIS top menu] 
+Project ▸ Properties ▸ CRS (tab)
+```
+
+You should see the CRS used to reproject "On the fly" every layers opened (for now only one).
+
+As shown below: 
+
+* in `filter` write: `Google Maps Global Mercator` to find out the CRS of interest;
+* select it in the `Coordinate Reference System` list and apply.
+
+![img/project-on-the-fly](img/project-on-the-fly)
+
 
 Project ▸ Project Properties ▸ Add Vector Layer  ▸ CRS (tab) ▸ Check "Enable on the fly CRS transformation"
 
