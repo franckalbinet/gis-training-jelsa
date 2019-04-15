@@ -29,9 +29,12 @@ then:
 
 ```
 [In QGIS layers panel] 
-Click right on the layer recently opened to access its ▸ 'Properties' 
-then select the 'Source' tab.
+Click right on the layer recently opened to access its ▸ 'Properties' then select the 'Source' tab.
 ```
+
+### 2. Layer vs. QGIS Project CRS
+It is quite frequent to get GIS layers (either vector or raster ones) in different CRS systems. In such situation, one solution is to transform all layers into a single, unique CRS. However, this is not always convenient and might be a cumbersome process for instance, if you have many layers and you just want to quickly visualize, explore these layers. To address this use case, QGIS transform "On the fly" all GIS layers opened into a single one; by default the CRS of the first layer opened but it can be configured as well.
+
 
 Project ▸ Project Properties ▸ Add Vector Layer  ▸ CRS (tab) ▸ Check "Enable on the fly CRS transformation"
 
