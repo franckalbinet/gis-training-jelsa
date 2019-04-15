@@ -1,8 +1,11 @@
 > [GIS fundamentals | Training Course](agenda.md) ▸ **Handling Coordinate Reference Systems (CRS)**
 
+Often, for GIS apprentice, having to deal with Coordinate Reference System is where things are getting confusing! Demystifying this topic is of the highest importance and will allow you to cross this "GIS entry barrier". This is the main purpose of this module.
+
 ## Targeted skills
 By the end of this module, you will know how to:
-* change Coordinate Reference System and map projection on the fly
+* identify the Coordinate Reference System of your GIS layer
+* know the difference between the CRS of your project and your layers
 * change & persist CRS and map projection of a shapefile
 
 ## Data
