@@ -31,6 +31,7 @@ then:
 [In QGIS layers panel] 
 Click right on the layer recently opened to access its ▸ 'Properties' then select the 'Source' tab.
 ```
+Notice that in the status bar (bottom part of the screen), coordinates displayed in lon, lat.
 
 ### 2. Layer vs. QGIS Project CRS
 It is quite frequent to get GIS layers (either vector or raster ones) in different CRS systems. In such situation, one solution is to transform all layers into a single, unique CRS. However, this is not always convenient and might be a cumbersome process for instance, if you have many layers and you just want to quickly visualize, explore these layers. To address this use case, QGIS transform "On the fly" all GIS layers opened into a single one; by default the CRS of the first layer opened but it can be configured as well.
@@ -55,6 +56,8 @@ As shown below:
 
 Now, your layer (the world countries) should be re-projected into the newly selected "On the fly" projection.
 
+Notice as well that in the status bar (bottom part of the screen), coordinates are not anymore in lon, lat but in x,y meters.
+
 * **Qestions:*
 
 * What are the pros and cons of such projection?
@@ -64,27 +67,21 @@ Play around with various CRS to see their variety.
 
 **Now, I know your burning question!! Which one to use?**
 
-
-### 1. Changing CRS on the fly
-Open: 
-```
-data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp
-```
-and
-```
-[In QGIS top menu] 
-Project ▸ Project Properties ▸ Add Vector Layer  ▸ CRS (tab) ▸ Check "Enable on the fly CRS transformation"
-```
-Play around with various CRS, apply and see the variety of world representation and their respective distortion (for instance select: Mercator, or World_Bonne.
-
-Notice as well that in the status bar (bottom part of the screen), coordinates are not anymore in lon, lat but in x,y meters.
-
-### 2. Changing and persisting CRS of a layer/shapefile
+### 3. Changing and persisting CRS of a layer/shapefile
 
 In the previous case, the CRS associated to the layer/shapefile was not changed but simply update "on the fly" dynamically. If you want to change the CRS for a layer you should do the following:
 
 ```
+[In QGIS top menu] 
+Project ▸ Properties ▸ CRS (tab)
+```
+
+
+```
 [In QGIS Layers list] 
-Click right on the layer of interest and select 'Save As'
+Click right on the layer of interest ▸ Export ▸ Save Features As...
 then you change the CRS via the CRS dropdown and save it (preferably with an explicit name)
 ```
+
+### 4. [BONUS] Assessing how biased and subjective could be the choice of a CRS
+
