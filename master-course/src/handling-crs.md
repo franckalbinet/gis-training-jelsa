@@ -92,6 +92,6 @@ Open the following project:
 Project ▸ Open  ▸ "data\ne_110m_admin_0_countries\demo\projections-mismatch project"
 ```
 
-The same layer (world countries) have been created projected in Mercator and Eckert IV CRS and projection on the fly disabled. Look how different they are...
+The same layer (world countries) have been created projected in Mercator and Eckert IV CRS and projection on the fly disabled. Look how different they are... Again, pros and cons?
 
 
