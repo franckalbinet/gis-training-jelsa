@@ -51,7 +51,7 @@ As shown below:
 * in `filter` write: `Google Maps Global Mercator` to find out the CRS of interest;
 * select it in the `Coordinate Reference System` list and apply.
 
-![../img/project-on-the-fly](../img/project-on-the-fly)
+![../img/project-on-the-fly.PNG](../img/project-on-the-fly.PNG)
 
 
 Project ▸ Project Properties ▸ Add Vector Layer  ▸ CRS (tab) ▸ Check "Enable on the fly CRS transformation"
