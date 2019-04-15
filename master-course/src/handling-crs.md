@@ -4,7 +4,7 @@ Often, for GIS apprentices, having to deal with Coordinate Reference System is w
 
 ## Targeted skills
 By the end of this module, you will know how to:
-* identify the Coordinate Reference System of your GIS layer
+* identify the Coordinate Reference System (CRS) of your GIS layer
 * know the difference between the CRS of your project and your layers
 * change & persist CRS and map projection of a shapefile
 
@@ -17,6 +17,23 @@ Data to be used in this module can be found in the following folders:
 data/ne_110m_admin_0_countries/
 ```
 ## Exercise outline & memos
+
+### 1. What is the CRS of your layers?
+
+Open: 
+```
+data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp
+```
+
+then: 
+
+```
+[In QGIS layers panel] 
+Click right on the layer recently opened to access its ▸ 'Properties' 
+then select the 'Source' tab.
+```
+
+Project ▸ Project Properties ▸ Add Vector Layer  ▸ CRS (tab) ▸ Check "Enable on the fly CRS transformation"
 
 ### 1. Changing CRS on the fly
 Open: 
