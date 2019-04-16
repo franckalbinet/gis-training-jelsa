@@ -71,6 +71,11 @@ for instance: "aiv-20180101-20190410" (the file extension will be created automa
 
 In previous QGIS versions 2.x, a dedicated plugin named "OpenLayers Plugin" allowed to load background image layers such as Google Map and the like. This plugin has not yet been adapted to the new QGIS version. However, there is a pretty straightforward to achieve the same result in the newest version.
 
+There are basically two ways to add these useful background layers (including satellite imagery): one by one or many of them in one go.
+
+* **Manual version**
+
+
 ```
 Install "OpenLayers Plugin" if not already installed. If/when installed the plugin
 needs to be activated (checkbox on).
