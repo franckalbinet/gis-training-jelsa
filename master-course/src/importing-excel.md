@@ -1,4 +1,4 @@
-> [GIS fundamentals | Training Course](agenda.md) ▸ **Importing Excel files**
+> [GIS fundamentals | Training Course](agenda.md) ▸ **Importing Geo-referenced EMPRES Excel files**
 
 ## Targeted skills
 By the end of this module, you will know how to:
@@ -9,8 +9,12 @@ By the end of this module, you will know how to:
 ## Data
 Data to be used in this module can be found in the following folders:
 ```
-data/bluetongue_2014_2015.xls
+aiv-20180101-20190410.xlsx
+aiv-20180101-20190410.csv
 ```
+
+Such data can be downloaded from the ["EMPRES: Global Animal Disease Information System" platform](http://empres-i.fao.org/eipws3g/)
+
 ## Exercise outline & memos
 
 ### 1. Converting Excel file format to csv 
@@ -18,7 +22,7 @@ data/bluetongue_2014_2015.xls
 Before being able to import your data into QGIS as a plain GIS layer, you need to pre-process it via Microsoft Excel or OpenOffice for instance.
 To do so for instance with Microsoft Excel:
 ```
-Open: data/bluetongue_2014_2015.xls
+Open: aiv-20180101-20190410.xlsx
 
 [In Excel top menu] 
 File ▸ Save As..
