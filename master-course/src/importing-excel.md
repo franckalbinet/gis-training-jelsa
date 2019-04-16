@@ -45,7 +45,7 @@ then reproduce settings shown below including:
 * `Geometry CRS`
 * ...
 
-![Importing csv](img/csv-import.png)
+![Importing csv](img/csv-import.PNG)
 
 ```
 Click "OK"
