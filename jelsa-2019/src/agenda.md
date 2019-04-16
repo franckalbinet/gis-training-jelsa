@@ -22,7 +22,7 @@ QGIS
   * [Set up](qgis-setup.md) &#10003;
   * [Handling GIS layers (opening, overlaying, selecting features, basic styling and saving as project)](handling-gis-layers.md) &#10003;
   * [Handling Coordinate Reference Systems (CRS)](handling-crs.md) &#10003;
-  * [Importing geo-referenced EMPRES Excel files & overlaying it over Google Maps](importing-excel.md)
+  * [Importing geo-referenced EMPRES Excel files & overlaying it over Google Maps](importing-excel.md)  &#10003;
   * [Handling QGIS plugins](qgis-setup.md)
 
 ## [Day 2](day2.md)
