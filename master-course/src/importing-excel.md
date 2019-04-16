@@ -17,9 +17,11 @@ These files contain Avian Influenze Virus (AIV) data from 2018/01/01 to 2019/04/
 
 ## Exercise outline & memos
 
-### 1. Converting Excel file format to csv 
+### 1. Converting Excel files to csv format
+*CSV stands for Comma-Separated Value*
 
 Before being able to import your data into QGIS as a plain GIS layer, you need to pre-process it via Microsoft Excel or OpenOffice for instance.
+
 To do so for instance with Microsoft Excel:
 
 ```
@@ -38,17 +40,19 @@ Change "Format" dropdown to "Windows Comma Separated (.csv)
 [In QGIS top menu] 
 Layer ▸ Add Layer ▸ Add Delimited Text Layer...
 ```
-then reproduce settings shown below (File format, First record as field names, X field, ...:
+then reproduce settings shown below including:
+* `File name`
+* `File format`
+* `Geometry CRS`
+* ...
 
-![Importing csv](img/import-csv.png)
+![Importing csv](img/csv-import.png)
 
 ```
 Click "OK"
 ```
 
-```
-Select "WGS84" as CRS then click "Ok"
-```
+
 
 ```
 Finally, save the layer as shapefile: click right on layer and "Save As"
