@@ -58,13 +58,18 @@ To do so:
 ```
 [In QGIS layers panel] 
 Click right on your layer  ▸ Export  ▸ Save Features As
+
 Choose "ESRI shapefile" format, a proper folder and save it with a meaningful name,
-for instance: "aiv-20180101-20190410" (the file extension will be created automatically)
+for instance: "aiv-20180101-20190410" (the file extension will be created automatically) - see screenshot below
 ```
+
+![save-vector-as.PNG](img/save-vector-as.PNG)
 
 **Congrats, you have created your first GIS layer / shapefile from scratch!**
 
-### 3. Overlaying layer created over GoogleMap or OpenStreeMap layers
+### 3. Overlaying layer created over XYZ tiles (GoogleMap, OpenStreeMap layers, ...)
+
+In previous QGIS versions 2.x, a dedicated plugin named "OpenLayers Plugin" allowed to load background image layers such as Google Map and the like. This plugin has not yet been adapted to the new QGIS version. However, there is a pretty straightforward to achieve the same result in the newest version.
 
 ```
 Install "OpenLayers Plugin" if not already installed. If/when installed the plugin
