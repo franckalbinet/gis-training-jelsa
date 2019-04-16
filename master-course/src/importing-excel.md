@@ -51,13 +51,15 @@ then reproduce settings shown below including:
 Click "OK"
 ```
 
-At this stage, your geo-referenced file is visible in the QGIS map panel but you still need to save it as a shapefile (or GeoPackage). 
+At this stage, your geo-referenced file is visible in the QGIS map panel but you still need
+to save it as a shapefile (or GeoPackage). 
 
 To do so:
 ```
 [In QGIS layers panel] 
 Click right on your layer  ▸ Export  ▸ Save Features As
-Choose "ESRI shapefile" format, a proper folder and save it with a meaningful name for instance: "aiv-20180101-20190410" (the file extension will be created automatically)
+Choose "ESRI shapefile" format, a proper folder and save it with a meaningful name,
+for instance: "aiv-20180101-20190410" (the file extension will be created automatically)
 ```
 
 **Congrats, you have created your first GIS layer / shapefile from scratch!**
