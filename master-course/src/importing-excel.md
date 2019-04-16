@@ -13,7 +13,7 @@ aiv-20180101-20190410.xlsx
 aiv-20180101-20190410.csv
 ```
 
-Such data can be downloaded from the ["EMPRES: Global Animal Disease Information System" platform](http://empres-i.fao.org/eipws3g/)
+These files contain Avian Influenze Virus (AIV) data from 2018/01/01 to 2019/04/10 worldwide provided by the ["EMPRES: Global Animal Disease Information System" platform](http://empres-i.fao.org/eipws3g/)
 
 ## Exercise outline & memos
 
@@ -21,6 +21,7 @@ Such data can be downloaded from the ["EMPRES: Global Animal Disease Information
 
 Before being able to import your data into QGIS as a plain GIS layer, you need to pre-process it via Microsoft Excel or OpenOffice for instance.
 To do so for instance with Microsoft Excel:
+
 ```
 Open: aiv-20180101-20190410.xlsx
 
@@ -29,6 +30,8 @@ File ▸ Save As..
 [In Save window/dialog]
 Change "Format" dropdown to "Windows Comma Separated (.csv)
 ```
+**IMPORTANT NOTE:** You can follow a similar process using an Open Source equivalent to Microsoft Excel named OpenOffice [Download](https://www.openoffice.org/)
+
 
 ### 2. Importing/converting csv file with lat, lon attributes into GIS layer
 ```
