@@ -34,7 +34,6 @@ Change "Format" dropdown to "Windows Comma Separated (.csv)
 ```
 **IMPORTANT NOTE:** You can follow a similar process using an Open Source equivalent to Microsoft Excel named OpenOffice [Download](https://www.openoffice.org/)
 
-
 ### 2. Importing/converting csv file with lat, lon attributes into GIS layer
 ```
 [In QGIS top menu] 
@@ -52,13 +51,16 @@ then reproduce settings shown below including:
 Click "OK"
 ```
 
+At this stage, your geo-referenced file is visible in the QGIS map panel but you still need to save it as a shapefile (or GeoPackage). 
 
-
+To do so:
 ```
-Finally, save the layer as shapefile: click right on layer and "Save As"
+[In QGIS layers panel] 
+Click right on your layer  ▸ Export  ▸ Save Features As
+Choose "ESRI shapefile" format, a proper folder and save it with a meaningful name for instance: "aiv-20180101-20190410" (the file extension will be created automatically)
 ```
 
-Congrats, you have created your first GIS layer / shapefile from scratch !
+**Congrats, you have created your first GIS layer / shapefile from scratch!**
 
 ### 3. Overlaying layer created over GoogleMap or OpenStreeMap layers
 
