@@ -23,7 +23,7 @@ QGIS
   * [Handling GIS layers (opening, overlaying, selecting features, basic styling and saving as project)](handling-gis-layers.md) &#10003;
   * [Handling Coordinate Reference Systems (CRS)](handling-crs.md) &#10003;
   * [Importing geo-referenced EMPRES Excel files & overlaying it over Google Maps](importing-excel.md) &#10003;
-  * [Handling QGIS plugins](qgis-setup.md) &#10003;
+  * [Creating a heatmap or reported cases](heatmap.md) &#10003;
 
 ## [Day 2](day2.md)
   * [Managing data attributes](managing-data-attributes.md)
