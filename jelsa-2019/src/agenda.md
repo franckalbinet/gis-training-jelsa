@@ -2,7 +2,7 @@
 
 *The use of Open-Source, Real-Time Geo-Visualization in Monitoring Vectors and Vector Borne Diseases, Jelsa, Croatia, 13-17 May 2019*
 
-## [Day 1](day1.md)
+## [Day 1 | Fundamentals](day1.md)
 INTRODUCTION
   * Course objectives & setup [lectures & hands-on sessions] &#10003;
   * [Course resources and materials](resources.md) &#10003;
@@ -25,8 +25,7 @@ QGIS
   * [Importing geo-referenced EMPRES Excel files & overlaying it over Google Maps](importing-excel.md) &#10003;
   * [Creating a heatmap of reported cases](heatmap.md) &#10003;
 
-## [Day 2](day2.md)
-**African Swine Fever (ASF) Romania use case** (zonal statistics and infected/surveillance zones)
+## [Day 2 | African Swine Fever (ASF) Romania use case](day2.md)
 
   * [Acquiring and preparing data](managing-data-attributes.md)
   * [Creating infected/surveillance zones "buffers"](managing-data-attributes.md)
@@ -34,8 +33,8 @@ QGIS
   * [Collecting geographical coordinates](collect-lon-lat.md)
   * [Editing an existing layer (add, update, delete features)](edit-layer.md)
 
-## [Day 3](day3.md)
-**More advanced analysis** 
+## [Day 3 | More advanced analysis](day3.md)
+
   * [Mapping number of cases in a grid](nb-cases-grid.md)
   * [Dissolving polygons](dissolving-poly.md)
   * [Mapping number of cases by administrative boundaries](nb-cases-admin.md)
