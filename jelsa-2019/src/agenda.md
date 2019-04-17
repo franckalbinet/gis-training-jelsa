@@ -26,7 +26,9 @@ QGIS
   * [Creating a heatmap of reported cases](heatmap.md) &#10003;
 
 ## [Day 2](day2.md)
-**African Swine Fever (ASF) Romania use case**: Calculating zonal statistics and creating infected/surveillance zones
+**African Swine Fever (ASF) Romania use case**
+
+*Calculating zonal statistics and creating infected/surveillance zones*
 
   * [Managing data attributes](managing-data-attributes.md)
   * [Creating buffers (zoning)](buffers.md)
