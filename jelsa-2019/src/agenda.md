@@ -28,12 +28,14 @@ QGIS
 ## [Day 2](day2.md)
 **African Swine Fever (ASF) Romania use case** (zonal statistics and infected/surveillance zones)
 
-  * [Managing data attributes](managing-data-attributes.md)
-  * [Creating buffers (zoning)](buffers.md)
+  * [Acquiring and preparing data](managing-data-attributes.md)
+  * [Creating infected/surveillance zones "buffers"](managing-data-attributes.md)
+  * [Zonal statistics - administrative levels and custom grids](buffers.md)
   * [Collecting geographical coordinates](collect-lon-lat.md)
   * [Editing an existing layer (add, update, delete features)](edit-layer.md)
 
 ## [Day 3](day3.md)
+**More advanced analysis** 
   * [Mapping number of cases in a grid](nb-cases-grid.md)
   * [Dissolving polygons](dissolving-poly.md)
   * [Mapping number of cases by administrative boundaries](nb-cases-admin.md)
