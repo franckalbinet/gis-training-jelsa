@@ -19,5 +19,4 @@ Plugins ▸ Manage and Install Plugins ...
 ```
 
 During this course, the following plugins will be installed (to be confirmed):
-* Table Manager
 * mmqgis
