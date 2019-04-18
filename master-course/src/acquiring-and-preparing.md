@@ -33,14 +33,25 @@ This type of visualization is quite popular and have its pros and cons but is of
 
 ```
 [QGIS Processing Toolbox] 
-In the search box, type: "heatmap"
-Then double-click on Interpolation ▸ Heatmap (Kernel Density Estimation)
-and reproduce the settings below
+1. In the search box, type: "heatmap"
+2. Then double-click on Interpolation ▸ Heatmap (Kernel Density Estimation)
+3. And finally reproduce the settings below
 ```
 
+![img/heatmap.PNG](img/heatmap.PNG)
 
+Choosing the right Heatmap settings/parameters is a trial and error process and there is not defined methodology. In a nutshell and intuitively, a heatmap counts the number of points a given area (radius of influence). Technically speaking, it simply estimates a 2D probabilty density distribution using points location as samples from a theoretical one. We will later on go through more relevant and predictable way to look at points/breakouts density including as well the possibilities to aggregate data (sum, mean, ...) at a given resolution ...
 
+By now, you should have a new layer in your Layer panel with the following name "Heatmap". Let's now adjust the symbology and color rendering.
+```
+[QGIS Layer Panel] 
+1. Double-click on "Heatmap" newly generated layer
+2. Reproduce the settings below
+```
 
+![img/heatmap-rendering.PNG](img/heatmap-rendering.PNG)
+
+*Given your color palette, you might need to invert it. To do so, click the "ColorRamp" dropdown and select "Invert Color Ramp"*
 
 ### 2. Getting access to countries administrative boundaries
 Previously loaded outbreaks data cover the entire world. For the proposed use case, we will focus on Romania
