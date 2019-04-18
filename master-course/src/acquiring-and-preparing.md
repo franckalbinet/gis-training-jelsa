@@ -64,6 +64,16 @@ In later modules, we will aggregate the outbreaks data, getting the sum of cases
 
 Download, copy and unzip it under course `/data` folder.
 
+### 4. Selecting outbreaks in Romania
+In **Day 1**, we've seen several ways to select/filter data.
+
+In this chapter, we would like to select loaded ASF outbreaks data that took place only in Romania.
+
+Your tasks:
+* Select by attribute value (open the attribute table, identify if country name is available, and filter, ...)
+* Perform a spatial query (points within Romania country boundaries)
+
+
 ### 1. Opening a shapefile
 
 Option 1:
