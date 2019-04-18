@@ -78,6 +78,17 @@ Your tasks:
 ### 5. Reprojecting the data
 In later modules, we will have to specify several parameters using meters or kilometers. At the moment, all our data (both ASF outbreaks and admin. boundaries) are in WGS84, hence using longitude and latitude in decimal degrees. 
 
-In order to minimize distortions when projected at country scale, each country opts for a specific projection. Reach out your National Mapping Agency to find out which ones are offical. However, the Universal Transversal Mercator (UTM) is often convenient and widely used in national and international mapping systems around the world delivers high accuracy in zones less than a few degrees in east-west extent. UTM projection are available worldwide in different zones. To find out the zone of interest, open the following file in the `resources\` folder: [resources/utm-zones.jpg](../resources/utm-zones.jpg)
+In order to minimize distortions when projected at country scale, each country opts for a specific projection. Reach out your National Mapping Agency to find out which ones are offical. However, the Universal Transversal Mercator (UTM) is often convenient and widely used in national and international mapping systems around the world delivers high accuracy in zones less than a few degrees in east-west extent. UTM projection are available worldwide in different zones. 
+
+To find out the zone of interest:
+* Open the following file in the `resources\` folder: [resources/utm-zones.jpg](../resources/utm-zones.jpg)
+
+Which zone to use?
+
+Your task:
+* Reproject all Romania admin. boundaries levels and ASF data for Romania in chosen UTM Zone X
+
+
+### 6. Handling data attribues
 
 
