@@ -27,9 +27,19 @@ In this series of module, we will focus on **ASF (African Swine Fever) outbreaks
 
 ### 2. Take a quick look at outbreaks density worldwide with a Heatmap
 
-You might have noticed that visualizing raw ASF data at world scale resuts in an overcrowded and cluttered map making it difficult to assess visually the density of outbreaks worldwide. We will perform various data analysis in the next module, but for now, let's use a technique called "Heatmap" allowing to quickly assess visually points density.
+You might have noticed that visualizing raw ASF data at world scale resuts in an overcrowded and cluttered map making it difficult to assess visually the density of outbreaks worldwide. We will perform various data analysis in the next module, but for now, let's use a technique called "Heatmap" allowing to quickly visually assess points density.
 
-Intuitively, a **Heatmap** a 
+This type of visualization is quite popular and have its pros and cons but is often a good first step. To create a Heatmap with QGIS3:
+
+```
+[QGIS Processing Toolbox] 
+In the search box, type: "heatmap"
+Then double-click on Interpolation ▸ Heatmap (Kernel Density Estimation)
+and reproduce the settings below
+```
+
+
+
 
 
 ### 2. Getting access to countries administrative boundaries
