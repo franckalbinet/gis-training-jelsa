@@ -23,11 +23,10 @@ QGIS
   * [Handling GIS layers (opening, overlaying, selecting features, basic styling and saving as project)](handling-gis-layers.md) &#10003;
   * [Handling Coordinate Reference Systems (CRS)](handling-crs.md) &#10003;
   * [Importing geo-referenced EMPRES Excel files & overlaying it over Google Maps](importing-excel.md) &#10003;
-  * [Creating a heatmap of reported cases](heatmap.md) &#10003;
 
 ## [Day 2 | African Swine Fever (ASF) Romania Use Case](day2.md)
 
-  * [Acquiring and preparing data](managing-data-attributes.md)
+  * [Acquiring and preparing data](acquiring-and-preparing.md)
   * [Creating infected/surveillance zones "buffers"](managing-data-attributes.md)
   * [Zonal statistics - administrative levels and custom grids](buffers.md)
   * [Collecting geographical coordinates](collect-lon-lat.md)
