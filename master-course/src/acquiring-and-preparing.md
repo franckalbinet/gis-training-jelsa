@@ -72,7 +72,8 @@ In this chapter, we would like to select loaded ASF outbreaks data that took pla
 Your tasks:
 * Select by attribute value (open the attribute table, identify if country name is available, and filter, ...)
 * Perform a spatial query (points within Romania country boundaries)
-
+* Check visually that you get the same selected points
+* Save the selection as a new shapefile layer
 
 ### 1. Opening a shapefile
 
