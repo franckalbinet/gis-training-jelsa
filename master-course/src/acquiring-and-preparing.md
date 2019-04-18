@@ -56,7 +56,7 @@ By now, you should have a new layer in your Layer panel with the following name 
 ### 3. Getting access to countries administrative boundaries
 Given previous visual assessment, we've identified high densities of outbreaks in Romania and Poland. Let's use further assess Romania's situation in this module (Poland case is let as an exercise). 
 
-In later modules, we will aggregate the outbreaks data, getting the sum of cases or others at county levels, regional levels or in a generated grid. Finding, authoritative administrative boundaries data is not always a simple process (as they might change quite regularly). The safest way is to ask these data to your country's agency in charge (Statistical office, ...). However, a first often very relevant data source is the GADM data portal, a global database of administrative areas.
+In later modules, we will aggregate the outbreaks data, getting the sum of cases or others at county levels, regional levels or in a generated grid. Finding, authoritative administrative boundaries data is not always a simple process (as they might change quite regularly). The safest way is to ask these data to your country's agency in charge (Statistical office, National Mapping Agency, ...). However, a first often very relevant data source is the GADM data portal, a global database of administrative areas.
 
 * You can reach this data portal at this url: https://gadm.org/index.html
 * And download, the shapefiles of your country of interest at this url: https://gadm.org/download_country_v3.html
@@ -75,10 +75,8 @@ Your tasks:
 * Check visually that you get the same selected points
 * Save the selection as a new shapefile layer
 
-### 1. Opening a shapefile
+### 5. Reprojecting the data
+In later modules, we will have to specify several parameters using meters or kilometers. At the moment, all our data (both ASF outbreaks and admin. boundaries) are in WGS84, hence using longitude and latitude in decimal degrees. 
 
-Option 1:
-```
-[In QGIS top menu] 
-Layer ▸ Add Layer ▸ Add Vector Layer  
-```
+In order to minimize distortions when projected at country scale, each country opts for a specific projection.
+
