@@ -2,7 +2,7 @@
 
 *The use of Open-Source, Real-Time Geo-Visualization in Monitoring Vectors and Vector Borne Diseases, Jelsa, Croatia, 13-17 May 2019*
 
-## [Day 1](day1.md)
+## [Day 1 | Fundamentals](day1.md)
 INTRODUCTION
   * Course objectives & setup [lectures & hands-on sessions] &#10003;
   * [Course resources and materials](resources.md) &#10003;
@@ -22,16 +22,18 @@ QGIS
   * [Set up](qgis-setup.md) &#10003;
   * [Handling GIS layers (opening, overlaying, selecting features, basic styling and saving as project)](handling-gis-layers.md) &#10003;
   * [Handling Coordinate Reference Systems (CRS)](handling-crs.md) &#10003;
-  * [Importing geo-referenced EMPRES Excel files & overlaying it over Google Maps](importing-excel.md)
-  * [Handling QGIS plugins](qgis-setup.md)
+  * [Importing geo-referenced EMPRES Excel files & overlaying it over Google Maps](importing-excel.md) &#10003;
 
-## [Day 2](day2.md)
-  * [Managing data attributes](managing-data-attributes.md)
-  * [Creating buffers (zoning)](buffers.md)
+## [Day 2 | African Swine Fever (ASF) Romania Use Case](day2.md)
+
+  * [Acquiring, exploring (Heatmap) and preparing data](acquiring-and-preparing.md)
+  * [Creating infected/surveillance zones "buffers"](managing-data-attributes.md)
+  * [Zonal statistics - administrative levels and custom grids](buffers.md)
   * [Collecting geographical coordinates](collect-lon-lat.md)
   * [Editing an existing layer (add, update, delete features)](edit-layer.md)
 
-## [Day 3](day3.md)
+## [Day 3 | More advanced analysis](day3.md)
+
   * [Mapping number of cases in a grid](nb-cases-grid.md)
   * [Dissolving polygons](dissolving-poly.md)
   * [Mapping number of cases by administrative boundaries](nb-cases-admin.md)
