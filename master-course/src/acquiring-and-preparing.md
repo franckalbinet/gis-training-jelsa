@@ -5,7 +5,7 @@
 By the end of this module, you will know how to:
 * get access to countries administrative boundaries GIS layers
 * perform a quick visual analysis of outbreaks density using an "Heatmap"
-* perform a spatial query to select features (point) of interest
+* perform a (spatial) query to select features (point) of interest
 * identify a CRS relevant to your region of interest and use case
 * handle data attributes: add, delete, move, calculate, ...
 
@@ -38,9 +38,9 @@ This type of visualization is quite popular and have its pros and cons but is of
 3. And finally reproduce the settings below
 ```
 
-![img/heatmap.PNG](img/heatmap.PNG)
+<img src="img/heatmap.PNG" alt="drawing" width="600"/>
 
-Choosing the right Heatmap settings/parameters is a trial and error process and there is not defined methodology. In a nutshell and intuitively, a heatmap counts the number of points a given area (radius of influence). Technically speaking, it simply estimates a 2D probabilty density distribution using points location as samples from a theoretical one. We will later on go through more relevant and predictable way to look at points/breakouts density including as well the possibilities to aggregate data (sum, mean, ...) at a given resolution ...
+Choosing the right Heatmap settings/parameters is a trial and error process and there is not defined methodology. In a nutshell and intuitively, a heatmap counts the number of points a given area (radius of influence). Technically speaking, it simply estimates a 2D probabilty density distribution using points location as samples from a theoretical one. We will later on go through more relevant and predictable way to look at points/outbreaks density including as well the possibilities to aggregate data (sum, mean, ...) at a given resolution ...
 
 By now, you should have a new layer in your Layer panel with the following name "Heatmap". Let's now adjust the symbology and color rendering.
 ```
@@ -49,25 +49,46 @@ By now, you should have a new layer in your Layer panel with the following name 
 2. Reproduce the settings below
 ```
 
-![img/heatmap-rendering.PNG](img/heatmap-rendering.PNG)
+<img src="img/heatmap-rendering.PNG" alt="drawing" width="600"/>
 
 *Given your color palette, you might need to invert it. To do so, click the "ColorRamp" dropdown and select "Invert Color Ramp"*
 
-### 2. Getting access to countries administrative boundaries
-Previously loaded outbreaks data cover the entire world. For the proposed use case, we will focus on Romania
+### 3. Getting access to countries administrative boundaries
+Given previous visual assessment, we've identified high densities of outbreaks in Romania and Poland. Let's use further assess Romania's situation in this module (Poland case is let as an exercise). 
+
+In later modules, we will aggregate the outbreaks data, getting the sum of cases or others at county levels, regional levels or in a generated grid. Finding, authoritative administrative boundaries data is not always a simple process (as they might change quite regularly). The safest way is to ask these data to your country's agency in charge (Statistical office, National Mapping Agency, ...). However, a first often very relevant data source is the GADM data portal, a global database of administrative areas.
+
+* You can reach this data portal at this url: https://gadm.org/index.html
+* And download, the shapefiles of your country of interest at this url: https://gadm.org/download_country_v3.html
+* In our case, let's download the shapefiles for Romania: https://biogeo.ucdavis.edu/data/gadm3.6/shp/gadm36_ROU_shp.zip
+
+Download, copy and unzip it under course `/data` folder.
+
+### 4. Selecting outbreaks in Romania
+In **Day 1**, we've seen several ways to select/filter data.
+
+In this chapter, we would like to select loaded ASF outbreaks data that took place only in Romania.
+
+Your tasks:
+* Select by attribute value (open the attribute table, identify if country name is available, and filter, ...)
+* Perform a spatial query (points within Romania country boundaries)
+* Check visually that you get the same selected points
+* Save the selection as a new shapefile layer
+
+### 5. Reprojecting the data
+In later modules, we will have to specify several parameters using meters or kilometers. At the moment, all our data (both ASF outbreaks and admin. boundaries) are in WGS84, hence using longitude and latitude in decimal degrees. 
+
+In order to minimize distortions when projected at country scale, each country opts for a specific projection. Reach out your National Mapping Agency to find out which ones are offical. However, the Universal Transversal Mercator (UTM) is often convenient and widely used in national and international mapping systems around the world delivers high accuracy in zones less than a few degrees in east-west extent. UTM projection are available worldwide in different zones. 
+
+To find out the zone of interest:
+* Open the following file in the `resources\` folder: [resources/utm-zones.jpg](../resources/utm-zones.jpg)
+
+Which zone to use?
+
+Your task:
+* Reproject all Romania admin. boundaries levels and ASF data for Romania in chosen UTM Zone X
 
 
+### 6. Handling data attribues
 
 
-```
-[QGIS Browser] 
-Click right to your folder of interest and ▸ Add as a Favorite
-```
-
-### 1. Opening a shapefile
-
-Option 1:
-```
-[In QGIS top menu] 
-Layer ▸ Add Layer ▸ Add Vector Layer  
-```
