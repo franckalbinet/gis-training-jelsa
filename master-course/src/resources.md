@@ -9,6 +9,7 @@
 * Notion of map scale [(https://en.wikipedia.org/wiki/Scale_(map))](https://en.wikipedia.org/wiki/Scale_(map))
 * Map projections explained by Carlos Furuti [http://www.progonos.com/furuti/MapProj/Normal/TOC/cartTOC.html](http://www.progonos.com/furuti/MapProj/Normal/TOC/cartTOC.html)
 * Comparing Map projections [http://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e](http://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e)
+* https://spatialreference.org/
 
 ## VISUAL ENCODINGS
 * Visual encoding [http://vda.univie.ac.at/Teaching/Vis/13s/LectureNotes/05_visual_encodings.pdf](http://vda.univie.ac.at/Teaching/Vis/13s/LectureNotes/05_visual_encodings.pdf)
