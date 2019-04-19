@@ -30,7 +30,7 @@ Once "Buffers" window/dialog opened, you will notice that a distance should be s
 
 Specify the following settings:
 
-<img src="img/buffers.PNG" alt="drawing" width="600"/>
+<img src="img/buffers.PNG" alt="drawing" width="800"/>
 
 The dissolve checkbox allows to create the union of individual buffers created.
 
