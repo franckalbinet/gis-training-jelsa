@@ -96,8 +96,22 @@ We have essentially to techniques in our arsenal:
 * the `Refactor fields` tool in the `[QGIS Processing Toolbox]` will allow you to move, delete, ... attributes
 * the layer attribute table `Field calculator` to update existing fields/attributes and create new ones
 
+Your tasks:
+1. Delete any fields/attribute you judge useless
+2. Calculate the sum of animals as follows: `sum_animals = sumAtRisk + sumCases + sumDeaths + sumDestroy`
 
+Some details on point 2:
 
+```
+1. Open the attribute table of your layer of interest
+2. Open field calculator (the Abacus icon in the top toolbar of the 
+attribute table - just hover to the icons to find out their function)
+3. Reproduce the settings below
+```
 
-if("sumAtRisk" is null, 0, "sumAtRisk")
+<img src="img/calculate-fields.PNG" alt="drawing" width="600"/>
+
+**Check you result! What's wrong?**
+
+**Hints:** Some of the values of your fields contains the value `NULL`. When you perform the calculation `NULL + 12`, it equals to `NULL`. As a result, you need to clean each attribute/field to be used in your calculation using the following formula: `if("sumAtRisk" is null, 0, "sumAtRisk")`.
 
