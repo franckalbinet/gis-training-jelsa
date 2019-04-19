@@ -25,9 +25,8 @@ QGIS
   * [Importing geo-referenced EMPRES Excel files & overlaying it over Google Maps](importing-excel.md) &#10003;
 
 ## [Day 2 | African Swine Fever (ASF) Romania Use Case](day2.md)
-
   * [Acquiring, exploring (Heatmap) and preparing data](acquiring-and-preparing.md) &#10003;
-  * [Creating infected/surveillance zones "buffers"](buffers.md)
+  * [Creating infected/surveillance zones "buffers"](buffers.md) &#10003;
   * [Zonal statistics - administrative levels and thematic mapping](zonal-statistics-thematic-mapping.md)
   * [Spatial aggregation techniques - grid/hexagons](spatial-agg.md)
   * [Collecting geographical coordinates](collect-lon-lat.md)
