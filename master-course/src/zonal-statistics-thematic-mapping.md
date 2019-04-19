@@ -30,7 +30,7 @@ After having opened the three layers required, to perform this aggregation in QG
 3. Save the generated layer with a meaningful name
 ```
 
-<img src="img/join-attr-by-loc.PNG" alt="drawing" width="700"/>
+<img src="img/join-attr-by-loc.PNG" alt="drawing" width="800"/>
 
 ### 2. Creating a thematic map
 **Note:  To fully understand the rationale behind the following setting choices, you should attend the "Thematic Mapping" mini-lecture.**
@@ -44,9 +44,13 @@ To produce a thematic map of the newly generated layer:
 2. Then reproduce the settings below for the "Symbology tab"
 ```
 
-<img src="img/thematic-map.PNG" alt="drawing" width="700"/>
+<img src="img/thematic-map.PNG" alt="drawing" width="800"/>
+
+Save your work as a QGIS project.
 
 ### 3. Avoiding perception bias
+There is one issue with the thematic map produced previously: it might visually over emphasize the largest commune whatever the quantitative value to map. It is usually considered a bad practice to produce "Choropleth" maps for absolute quantitative data (though very common). Instead, we prefer to "normalize" by calculating for instance in our case a density: "the number of cases by km^2".
+
 
 
 
