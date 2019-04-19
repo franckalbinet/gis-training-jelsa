@@ -30,7 +30,6 @@ QGIS
   * [Creating infected/surveillance zones "buffers"](managing-data-attributes.md)
   * [Zonal statistics - administrative levels and custom grids](buffers.md)
   * [Collecting geographical coordinates](collect-lon-lat.md)
-  * [Editing an existing layer (add, update, delete features)](edit-layer.md)
 
 ## [Day 3 | More advanced analysis](day3.md)
 
