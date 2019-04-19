@@ -7,7 +7,7 @@ By the end of this module, you will know how to:
 
 ## Data
 Data to be used in this module is the one produced in previous module and complying with the following requirements:
-* ASF (Avian Swine Fever) outbreaks
+* ASF (African Swine Fever) outbreaks
 * Romania outbreaks only
 * re-projected in UTM 35N
 
