@@ -1,4 +1,4 @@
-> [GIS fundamentals | Training Course](agenda.md) ▸ **Creating buffers (zoning)**
+> [GIS fundamentals | Training Course](agenda.md) ▸ **Creating buffers (infected & surveillance zones)**
 
 ## Targeted skills
 By the end of this module, you will know how to:
