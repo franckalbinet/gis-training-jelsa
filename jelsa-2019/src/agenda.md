@@ -27,7 +27,7 @@ QGIS
 ## [Day 2 | African Swine Fever (ASF) Romania Use Case](day2.md)
 
   * [Acquiring, exploring (Heatmap) and preparing data](acquiring-and-preparing.md) &#10003;
-  * [Creating infected/surveillance zones "buffers"](managing-data-attributes.md)
+  * [Creating infected/surveillance zones "buffers"](buffers.md)
   * [Zonal statistics - administrative levels and custom grids](buffers.md)
   * [Collecting geographical coordinates](collect-lon-lat.md)
 
