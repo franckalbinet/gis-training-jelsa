@@ -90,5 +90,14 @@ Your task:
 
 
 ### 6. Handling data attribues
+Before we start performing some interesting visualization and analysis, we would like to clean, transform some attributes of the layer of interest: the ASF outbreaks in Romania and reprojected (proper CRS).
 
+We have essentially to techniques in our arsenal:
+* the `Refactor fields` tool in the `[QGIS Processing Toolbox]` will allow you to move, delete, ... attributes
+* the layer attribute table `Field calculator` to update existing fields/attributes and create new ones
+
+
+
+
+if("sumAtRisk" is null, 0, "sumAtRisk")
 
