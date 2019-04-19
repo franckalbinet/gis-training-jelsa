@@ -49,7 +49,11 @@ To produce a thematic map of the newly generated layer:
 Save your work as a QGIS project.
 
 ### 3. Avoiding perception bias
-There is one issue with the thematic map produced previously: it might visually over emphasize the largest commune whatever the quantitative value to map. It is usually considered a bad practice to produce "Choropleth" maps for absolute quantitative data (though very common). Instead, we prefer to "normalize" by calculating for instance in our case a density: "the number of cases by km<sup>2</sup>".
+There is one issue with the thematic map produced previously: it might visually over emphasize the largest commune whatever the quantitative value to map. It is usually considered a bad practice to produce "Choropleth" maps for absolute quantitative data (though very common). Instead, we prefer to "normalize" by calculating for instance in our case a density: **the number of cases by km<sup>2</sup>**.
+
+Hence, the first thing to do is to calculate the area (in km<sup>2</sup>) for each commune:
+
+
 
 
 
