@@ -8,20 +8,19 @@ By the end of this module, you will know how to:
 
 
 ## Data
-Data to be used in this module can be found in the following folders:
-```
-data/ne_110m_admin_0_countries/
-data/ne_110m_populated_places/
-data/ne_110m_rivers_lake_centerlines/
-```
+
 ## Exercise outline & memos
 
-**IMPORTANT PRELIMINARY NOTE:** Create a favorite to the workshop downloaded folder for easy access. To do so, simply browse your file system and in:
+In this module, given our previous analysis, we would like to perform a fine-grained analysis of the outbreak situation in the south west of Romania, especially in these counties:
+* Ialomița
+* Constanța
+* Călărași
+* Brăila
+* Tulcea
 
-```
-[QGIS Browser] 
-Click right to your folder of interest and ▸ Add as a Favorite
-```
+
+### 1. Data preparation
+
 
 ### 1. Opening a shapefile
 
