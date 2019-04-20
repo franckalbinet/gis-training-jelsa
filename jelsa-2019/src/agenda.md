@@ -29,14 +29,11 @@ QGIS
   * [Creating infected/surveillance zones "buffers"](buffers.md) &#10003;
   * [Zonal statistics - administrative levels and thematic mapping](zonal-statistics-thematic-mapping.md) &#10003;
   * [Spatial aggregation techniques - grid/hexagons](spatial-agg.md)
-  * [Collecting geographical coordinates](collect-lon-lat.md)
+  
 
 ## [Day 3 | More advanced analysis](day3.md)
-
-  * [Mapping number of cases in a grid](nb-cases-grid.md)
-  * [Dissolving polygons](dissolving-poly.md)
-  * [Mapping number of cases by administrative boundaries](nb-cases-admin.md)
-  * [Interpolation techniques introduction](interpolation.md)
+  * [Digital Elevation Model and raster analysis](dem-raster.md)
+  * [Interpolation techniques: an introduction](interpolation.md)
   * [Time series animation](ts-animation.md)
   
 
