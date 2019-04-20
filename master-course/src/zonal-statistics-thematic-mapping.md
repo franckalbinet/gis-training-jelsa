@@ -53,8 +53,29 @@ There is one issue with the thematic map produced previously: it might visually 
 
 Hence, the first thing to do is to calculate the area (in km<sup>2</sup>) for each commune:
 
+```
+First, ensure to specify the proper unit for surface calculation
+[In QGIS Top Menu] 
+Project ▸ Properties... ▸ General (tab)
+Specify km<sup>2</sup> as "Unit for area measurement"
+```
 
+Now, let's compute the area of each features (polygons of administrative level 2, i.e communes):
 
+```
+[Layer's attribute table field calculator] 
+Reproduce the settings below:
+```
+
+<img src="img/area-calculation.PNG" alt="drawing" width="800"/>
+
+Finally, again in:
+
+```
+[Layer's attribute table field calculator] 
+Create a new field/attribue named "cases_density" with the total number of cases / area
+Then perform a new thematic analysis with the newly created field
+```
 
 
 
