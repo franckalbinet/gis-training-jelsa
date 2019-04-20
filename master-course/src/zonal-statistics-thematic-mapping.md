@@ -72,8 +72,8 @@ Reproduce the settings below:
 Finally, again in:
 
 ```
-[Layer's attribute table field calculator] 
-Create a new field/attribue named "cases_density" with the total number of cases / area
+[Open Field calculator in QGIS Top Toolbox] 
+Create a new field/attribue named "cases_km2" with the total number of cases / area
 Then perform a new thematic analysis with the newly created field
 ```
 
