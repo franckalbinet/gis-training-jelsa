@@ -35,5 +35,6 @@ QGIS
   * [Digital Elevation Model and raster analysis](dem-raster.md)
   * [Interpolation techniques: an introduction](interpolation.md)
   * [Time series animation](ts-animation.md)
+  * ["Publication ready" map layout](pub-ready.md)
   
 
