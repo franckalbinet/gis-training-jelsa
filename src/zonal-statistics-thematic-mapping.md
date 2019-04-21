@@ -29,8 +29,7 @@ After having opened the three layers required, to perform this aggregation in QG
   * "sum" as "Summaries to calculate..."
 3. Save the generated layer with a meaningful name
 ```
-
-<img src="img/join-attr-by-loc.PNG" alt="drawing" width="800"/>
+![img/join-attr-by-loc.PNG](img/join-attr-by-loc.PNG)
 
 ### 2. Creating a thematic map
 **Note:  To fully understand the rationale behind the following setting choices, you should attend the "Thematic Mapping" mini-lecture.**
@@ -44,7 +43,7 @@ To produce a thematic map of the newly generated layer:
 2. Then reproduce the settings below for the "Symbology tab"
 ```
 
-<img src="img/thematic-map.PNG" alt="drawing" width="800"/>
+![img/thematic-map.PNG](img/thematic-map.PNG)
 
 Save your work as a QGIS project.
 
@@ -67,7 +66,7 @@ Now, let's compute the area of each features (polygons of administrative level 2
 Reproduce the settings below:
 ```
 
-<img src="img/area-calculation.PNG" alt="drawing" width="800"/>
+![img/area-calculation.PNG](img/area-calculation.PNG)
 
 Finally, again in:
 

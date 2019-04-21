@@ -63,7 +63,7 @@ Choose "ESRI shapefile" format, a proper folder and save it with a meaningful na
 for instance: "aiv-20180101-20190410" (the file extension will be created automatically) - see screenshot below
 ```
 
-<img src="img/save-vector-as.PNG" alt="drawing" width="500"/>
+![img/save-vector-as.PNG](img/save-vector-as.PNG)
 
 **Congrats, you have created your first GIS layer / shapefile from scratch!**
 
@@ -90,7 +90,7 @@ URL: https://mt1.google.com/vt/lyrs=m&x=%7Bx%7D&y=%7By%7D&z=%7Bz%7D
 
 We could do the same for each individual layers, instead we will load most important ones in one go:
 
-* *Automatic version**
+* **Automatic version**
 
 ```
 [In QGIS Top toolbox] 
