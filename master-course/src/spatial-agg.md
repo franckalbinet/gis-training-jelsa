@@ -55,7 +55,7 @@ and double-click on Vector creation  ▸ Create grid
 and reproduce the settings below:
 ```
 
-<img src="img/create-grid.PNG" alt="drawing" width="700"/>
+<img src="img/create-grid.PNG" alt="drawing" width="600"/>
 
 And finally, let's **clip** (using region of interest as a countour to the newly created grid):
 
@@ -67,7 +67,7 @@ reproduce the settings below
 and save it as a new layer
 ```
 
-<img src="img/clip-grid.PNG" alt="drawing" width="700"/>
+<img src="img/clip-grid.PNG" alt="drawing" width="600"/>
 
 ### 3. Thematic mapping of sum of ASF cases
 Now it is your turn. By now, based on modules covered these last 2 days, you should be able to:
@@ -78,8 +78,9 @@ Now it is your turn. By now, based on modules covered these last 2 days, you sho
 
 **YOUR TURN ...**
 
-You sould come up with a map similar to the one below:
+You sould come up with a thematic analysis similar to the one below:
 
-<img src="img/grid-thematic-mapping.PNG" alt="drawing" width="800"/>
+<img src="img/grid-thematic-mapping.PNG" alt="drawing" width="600"/>
 
+We will see in a later module, how to produce a map publication ready including legend, north arrow, titles, ...
 
