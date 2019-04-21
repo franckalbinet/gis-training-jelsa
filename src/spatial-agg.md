@@ -41,7 +41,7 @@ By now, you should have three new layers (see screenshot below):
 * the 5 counties selected as a new layer
 * a layer with one single feature representing the contour of these 5 counties
 
-<img src="img/counties-dissolved.PNG" alt="drawing" width="600"/>
+![img/counties-dissolved.PNG](img/counties-dissolved.PNG)
 
 
 ### 2. Generate and clip a grid
@@ -55,7 +55,7 @@ and double-click on Vector creation  ▸ Create grid
 and reproduce the settings below:
 ```
 
-<img src="img/create-grid.PNG" alt="drawing" width="600"/>
+![img/create-grid.PNG](img/create-grid.PNG)
 
 And finally, let's **clip** (using region of interest as a countour to the newly created grid):
 
@@ -67,7 +67,7 @@ reproduce the settings below
 and save it as a new layer
 ```
 
-<img src="img/clip-grid.PNG" alt="drawing" width="600"/>
+![img/clip-grid.PNG](img/clip-grid.PNG)
 
 ### 3. Thematic mapping of sum of ASF cases
 Now it is your turn. By now, based on modules covered these last 2 days, you should be able to:
@@ -80,7 +80,7 @@ Now it is your turn. By now, based on modules covered these last 2 days, you sho
 
 You sould come up with a thematic analysis similar to the one below:
 
-<img src="img/grid-thematic-mapping.PNG" alt="drawing" width="600"/>
+![img/grid-thematic-mapping.PNG](img/grid-thematic-mapping.PNG)
 
 We will see in a later module, how to produce a map publication ready including legend, north arrow, titles, ...
 
