@@ -63,7 +63,7 @@ Choose "ESRI shapefile" format, a proper folder and save it with a meaningful na
 for instance: "aiv-20180101-20190410" (the file extension will be created automatically) - see screenshot below
 ```
 
-<img src="img/save-vector-as.PNG" alt="drawing" width="500"/>
+![img/save-vector-as.PNG](img/save-vector-as.PNG)
 
 **Congrats, you have created your first GIS layer / shapefile from scratch!**
 
