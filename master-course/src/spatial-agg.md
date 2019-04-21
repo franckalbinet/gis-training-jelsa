@@ -78,8 +78,9 @@ Now it is your turn. By now, based on modules covered these last 2 days, you sho
 
 **YOUR TURN ...**
 
-You sould come up with a map similar to the one below:
+You sould come up with a thematic analysis similar to the one below:
 
 <img src="img/grid-thematic-mapping.PNG" alt="drawing" width="600"/>
 
+We will see in a later module, how to produce a map publication ready including legend, north arrow, titles, ...
 
