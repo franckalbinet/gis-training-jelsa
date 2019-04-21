@@ -90,7 +90,7 @@ URL: https://mt1.google.com/vt/lyrs=m&x=%7Bx%7D&y=%7By%7D&z=%7Bz%7D
 
 We could do the same for each individual layers, instead we will load most important ones in one go:
 
-* *Automatic version**
+* **Automatic version**
 
 ```
 [In QGIS Top toolbox] 
