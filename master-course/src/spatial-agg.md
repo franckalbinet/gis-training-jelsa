@@ -44,7 +44,7 @@ By now, you should have three new layers (see screenshot below):
 <img src="img/counties-dissolved.PNG" alt="drawing" width="600"/>
 
 
-### 2. Generate and clip grid
+### 2. Generate and clip a grid
 
 Now, we would like to generate a grid of 5km resolution. To do so:
 
@@ -62,9 +62,24 @@ And finally, let's **clip** (using region of interest as a countour to the newly
 ```
 [In QGIS Processing Toolbox]
 Write "clip" in the search box
-and double-click on Vector overlay  ▸ Clip
-and reproduce the settings below:
+double-click on Vector overlay  ▸ Clip
+reproduce the settings below
+and save it as a new layer
 ```
 
 <img src="img/clip-grid.PNG" alt="drawing" width="700"/>
+
+### 3. Thematic mapping of sum of ASF cases
+Now it is your turn. By now, based on modules covered these last 2 days, you should be able to:
+
+* aggregate the nb of cases of the ASF outbreaks dataset into each individual grid;
+* produce a thematic map of the sum of number of cases in the gridded layer.
+
+
+**YOUR TURN ...**
+
+You sould come up with a map similar to the one below:
+
+<img src="img/grid-thematic-mapping.PNG" alt="drawing" width="800"/>
+
 
