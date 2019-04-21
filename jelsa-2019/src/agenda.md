@@ -28,7 +28,7 @@ QGIS
   * [Acquiring, exploring (Heatmap) and preparing data](acquiring-and-preparing.md) &#10003;
   * [Creating infected/surveillance zones "buffers"](buffers.md) &#10003;
   * [Zonal statistics - administrative levels and thematic mapping](zonal-statistics-thematic-mapping.md) &#10003;
-  * [Spatial aggregation techniques - grid/hexagons](spatial-agg.md)
+  * [Spatial aggregation techniques - grid/hexagons](spatial-agg.md) &#10003;
   
 
 ## [Day 3 | More advanced analysis](day3.md)
