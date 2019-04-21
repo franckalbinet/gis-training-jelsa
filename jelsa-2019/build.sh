@@ -5,19 +5,15 @@
 
 # copy files from master course
 cp ../master-course/src/resources.md ./src/
-cp ../master-course/src/handling-crs.md ./src/
 cp ../master-course/src/qgis-setup.md ./src/
 cp ../master-course/src/handling-gis-layers.md ./src/
+cp ../master-course/src/handling-crs.md ./src/
 cp ../master-course/src/importing-excel.md ./src/
-cp ../master-course/src/managing-data-attributes.md ./src/
+cp ../master-course/src/acquiring-and-preparing.md ./src/
 cp ../master-course/src/buffers.md ./src/
+cp ../master-course/src/zonal-statistics-thematic-mapping.md ./src/
+cp ../master-course/src/spatial-agg.md ./src/
 cp ../master-course/src/collect-lon-lat.md ./src/
-cp ../master-course/src/edit-layer.md ./src/
-cp ../master-course/src/nb-cases-grid.md ./src/
-cp ../master-course/src/nb-cases-admin.md ./src/
-cp ../master-course/src/dissolving-poly.md ./src/
-cp ../master-course/src/intro-upload-carto.md ./src/
-cp ../master-course/src/disease-spread-carto.md ./src/
 echo "Source files (.md) files copied successfully!"
 
 # copy img
@@ -31,6 +27,11 @@ echo "Data copied successfully!"
 # copy powerpoint presentations
 cp -R ../master-course/ppt .
 echo "Presentations copied successfully!"
+
+# copy resources
+cp -R ../master-course/resources ..
+echo "Resources copied successfully!"
+
 
 # convert .md files to .pdf
 cp -R src/img .
