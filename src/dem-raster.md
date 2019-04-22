@@ -63,11 +63,57 @@ Last, reproduce the settings below:
 
 ![clip-dem.PNG](img/clip-dem.PNG)
 
+Save the newly created raster layer as a Geotiff file:
+```
+[In QGIS Layer Panel]
+Right-click on the newly clipped layer
+Export ▸ Save As...
+Select "GeoTiff" format
+```
 
 
+### 3. Styling and visualizing
+
+Open the newly created raster layer. By default, it will appear in black and white. We will see how to adjust, specify color palettes for raster images.
+
+Raster images can have multiple bands (the case of sattelite images with visible bands + near infrared + ...). In the present case we have one single band containing the altitude averaged at 30m resolution. 
+
+We will now apply a "Single band pseudo color" color scheme as shown below:
+
+![style-dem.PNG](img/style-dem.PNG)
+
+This is also possible to visualize the Digital Elevation Model in 3D. To do so:
+
+```
+[In QGIS Top Menu]
+View ▸ New 3D Map View
+Click on the "wrench" icon to emphasize the altitude...
+To navigate both in 2D and 3D planes, handle simultaneously your mouse and "Shift" key
+```
+
+![3D-view.PNG](img/3D-view.PNG)
 
 
+### 4. Adding altitude measurements to ASF outbreaks data
+To further investigate ASF outbreaks data in your region of interest, you might want to acquire (if not yet available) the altitude of each reported outbreak.
 
+Several options are available:
+* one through an online tool where you upload your data and get back the altitude associated to each lon/lat;
+* by harnessing the Digital Elevation Model we know have at our disposal.
+
+We will use the second option:
+
+* Open your DEM raster layer
+* Open your ASF outbreaks vector layer to be associated with altitude then
+
+http://www.gpsvisualizer.com/elevation
+
+```
+[In QGIS Processing Toolbox]
+Right-click on the newly clipped layer
+Export ▸ Save As...
+Select "GeoTiff" format
+```
 
 Sample raster values
 
