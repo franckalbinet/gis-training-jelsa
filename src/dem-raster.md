@@ -39,11 +39,11 @@ A series of about 12 raster layers (images) will be downloaded
 ### 2. Merging and clipping SRTM individual scene
 The next steps are to merge (combine all scenes in one single one) and clip the extent based on `gadm-rom-level1-sw.shp` layer.
 
-To merge all downloaded scenes:
+To **merge** all downloaded scenes:
 
 ```
 [In QGIS Processing Toolbox]
-Write merge in the search box
+Write "merge" in the search box
 Double click on GDAL ▸ Raster Miscellaneous ▸ Merge
 ```
 
@@ -52,14 +52,16 @@ Double click on GDAL ▸ Raster Miscellaneous ▸ Merge
 You should have a new layer named "Merged"
 Remove all individual scenes and keep this last one.
 
-Now, let's clip this last layer using our `gadm-rom-level1-sw.shp` layer:
+Now, let's **clip** this last layer using our `gadm-rom-level1-sw.shp` layer:
 
 ```
 [In QGIS Processing Toolbox]
-Write merge in the search box
-Double click on GDAL ▸ Raster Miscellaneous ▸ Merge
+Write "clip" in the search box
+Double click on GDAL ▸ Raster extraction ▸ Clip raster by mask layer
+Last, reproduce the settings below:
 ```
 
+![clip-dem.PNG](img/clip-dem.PNG)
 
 
 
