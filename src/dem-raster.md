@@ -98,22 +98,20 @@ To navigate both in 2D and 3D planes, handle simultaneously your mouse and "Shif
 To further investigate ASF outbreaks data in your region of interest, you might want to acquire (if not yet available) the altitude of each reported outbreak.
 
 Several options are available:
-* one through an online tool where you upload your data and get back the altitude associated to each lon/lat;
-* by harnessing the Digital Elevation Model we know have at our disposal.
+* one through an online tool http://www.gpsvisualizer.com/elevation where you upload your data and get back the altitude associated to each lon/lat;
+* another one, harnessing the Digital Elevation Model we know have at our disposal.
 
 We will use the second option:
 
 * Open your DEM raster layer
 * Open your ASF outbreaks vector layer to be associated with altitude then
 
-http://www.gpsvisualizer.com/elevation
-
 ```
 [In QGIS Processing Toolbox]
-Right-click on the newly clipped layer
-Export ▸ Save As...
-Select "GeoTiff" format
+Write "sample" in the search box
+Double-clik on Raster analysis ▸ Sample raster values
+Reproduce the settings below:
 ```
+![sample-raster-values.PNG](img/sample-raster-values.PNG)
 
-Sample raster values
-
+Now, you can save the newly created layer and perform selection, analysis based on altitude.
