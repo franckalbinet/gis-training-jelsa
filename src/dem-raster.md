@@ -34,7 +34,8 @@ Now you will be asked to provide your Login and Password
 A series of about 12 raster layers (images) will be downloaded 
 ```
 
-![download-srtm.PNG](img/download-srtm.PNG)
+<img src="img/download-srtm.PNG" alt="Example" width="300">
+
 
 ### 2. Merging and clipping SRTM individual scene
 The next steps are to merge (combine all scenes in one single one) and clip the extent based on `gadm-rom-level1-sw.shp` layer.
