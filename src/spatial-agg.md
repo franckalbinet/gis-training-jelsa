@@ -8,6 +8,8 @@ By the end of this module, you will know how to:
 
 
 ## Data
+* Romania admin layer
+* ASF outbreaks
 
 ## Exercise outline & memos
 
