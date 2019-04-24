@@ -69,11 +69,24 @@ for instance: "aiv-20180101-20190410" (the file extension will be created automa
 
 Remove this layer from the Layers Panel for now!
 
-### 3. Overlaying layer created over XYZ tiles (GoogleMap, OpenStreeMap layers, ...)
 
-In previous QGIS versions 2.x, a dedicated plugin named "OpenLayers Plugin" allowed to load background image layers such as Google Map and the like. This plugin has not yet been adapted to the new QGIS version. However, there is a pretty straightforward to achieve the same result in the newest version.
+
+### 4. Overlaying layer created over Base maps
+
+In previous QGIS versions 2.x, a dedicated plugin named "OpenLayers Plugin" allowed to load background image layers such as Google Map and the like. This plugin has not yet been adapted to the new QGIS version. However, there are different way to achieve the same result in the newest version.
 
 There are basically two ways to add these useful background layers (including satellite imagery): one by one or many of them in one go.
+
+#### 4.1 Using HCMGIS plugin
+```
+[In QGIS Top Menu] 
+Plugins ▸ Manage and Install Plugins... ▸ All [tab]
+Search for "HCMGIS" plugin and install it
+```
+You should have now a new item in QGIS top menu named "HCMGIS". Click on it, and select your base map of interest.
+
+#### 4.2 Using XYZ tiles (GoogleMap, OpenStreeMap layers, ...)
+HCMGIS is essentially using XYZ tiles in the background, it can be done directly using the url of the map services.
 
 * **Manual version**
 
@@ -157,5 +170,7 @@ and paste (Ctrl-V) into the Python console and press Enter.
 **You should now have a dozen of interesting XYZ Tiles loaded** 
 
 Open as well the shapefile created in previous chapter, load various Tiles layers and explore.
+
+
 
 
