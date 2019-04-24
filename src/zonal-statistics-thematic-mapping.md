@@ -97,7 +97,7 @@ In this paragraph, we will create a "proportional circles" map for aggregated nu
 
 <img src="img/pie-chart-rendering.PNG" alt="HTML tutorial" style="width: 600px">
 
-* **Adjust opacity, rendering**
+* **Adjust size (proportional to area)**
 <img src="img/pie-chart-size.PNG" alt="HTML tutorial" style="width: 600px">
 
 * **Placement**
