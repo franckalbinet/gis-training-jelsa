@@ -33,7 +33,7 @@ QGIS
 
 ## [Day 3 | More advanced analysis](day3.md)
   * [Digital Elevation Model and raster analysis](dem-raster.md) &#10003;
-  * [Interpolation techniques: an introduction](interpolation.md)
+  * [Interpolation techniques: an introduction](interpolation.md) &#10003;
   * [Time series animation](ts-animation.md)
   * ["Publication ready" map layout](pub-ready.md)
   

@@ -6,7 +6,7 @@
 
 By the end of this module, you will know how to:
 * aggregate outbreaks statistics at "commune" level (sum, mean, ...)
-* create a thematic map
+* create thematic maps: choropleth maps & proportional circles
 
 ## Data
 Data to be used in this module are:
@@ -75,6 +75,42 @@ Finally, again in:
 Create a new field/attribue named "cases_km2" with the total number of cases / area
 Then perform a new thematic analysis with the newly created field
 ```
+
+
+### 4. Thematic map with proportional circles
+As seen during the "Thematic mapping" introduction lecture, using "size-related" visual encodings is often the more effective way to represent quantitative data (such as number of cases for instance). 
+
+In this paragraph, we will create a "proportional circles" map for aggregated number of cases at commune level.
+
+```
+[In QGIS Layer Panel] 
+1. Click right on the Layer  ▸ Properties... or simply double-click on the layer
+2. Then for the "Symbology tab", select "No symbols"
+3. Then click on "Diagrams" tab and reproduce the series of settings below:
+```
+
+* **Select "Pie chart" and attribute of interest**
+
+<img src="img/pie-chart-attr.PNG" alt="HTML tutorial" style="width: 600px">
+
+* **Adjust opacity, rendering**
+
+<img src="img/pie-chart-rendering.PNG" alt="HTML tutorial" style="width: 600px">
+
+* **Adjust opacity, rendering**
+<img src="img/pie-chart-size.PNG" alt="HTML tutorial" style="width: 600px">
+
+* **Placement**
+<img src="img/pie-chart-placement.PNG" alt="HTML tutorial" style="width: 600px">
+
+
+You should now obtain a thematic layer looking like the one below:
+<img src="img/pie-chart-result.PNG" alt="HTML tutorial" style="width: 600px">
+
+**How could we improve (at least in two ways) the map produced above?**
+
+
+
 
 
 
