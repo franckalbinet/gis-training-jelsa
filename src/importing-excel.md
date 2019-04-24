@@ -71,7 +71,7 @@ Remove this layer from the Layers Panel for now!
 
 
 
-### 4. Overlaying layer created over Base maps
+### 4. Overlaying layer created over Basemaps
 
 In previous QGIS versions 2.x, a dedicated plugin named "OpenLayers Plugin" allowed to load background image layers such as Google Map and the like. This plugin has not yet been adapted to the new QGIS version. However, there are different way to achieve the same result in the newest version.
 
@@ -83,7 +83,7 @@ There are basically two ways to add these useful background layers (including sa
 Plugins ▸ Manage and Install Plugins... ▸ All [tab]
 Search for "HCMGIS" plugin and install it
 ```
-You should have now a new item in QGIS top menu named "HCMGIS". Click on it, and select your base map of interest.
+You should have now a new item in QGIS top menu named "HCMGIS". Click on it, and select your basemap of interest.
 
 #### 4.2 Using XYZ tiles (GoogleMap, OpenStreeMap layers, ...)
 HCMGIS is essentially using XYZ tiles in the background, it can be done directly using the url of the map services.
