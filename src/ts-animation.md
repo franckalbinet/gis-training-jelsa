@@ -32,7 +32,7 @@ Click on "Open Field Calculator Icon" (the abacus icon)
 and reproduce the setting below with the expression provided
 ```
 
-<img src="img/create-time-manager-attr.PNG" alt="" height="700">
+<img src="img/create-time-manager-attr.PNG" alt="" width="700">
 
 Expression to be used: `array_to_string(array_reverse(string_to_array(reportingD, '/')), '-')`
 
@@ -49,7 +49,7 @@ Now that we have a "TimeManager" compliant data/time attribute, let's style our 
 * **Heat map**
 See settings below:
 
-<img src="img/time-manager-heatmap.PNG" alt="" height="700">
+<img src="img/time-manager-heatmap.PNG" alt="" width="700">
 
 Note that "color1" of your "Color ramp" is set to transparent (click on the "Color Ramp" to access this setting).
 
@@ -69,10 +69,10 @@ By now, you should have a new "TimeManager" panel.
 Click on Settings ▸ Add Layer
 and reproduce the settings below:
 ```
-<img src="img/time-manager-settings.PNG" alt="" height="500">
+<img src="img/time-manager-settings.PNG" alt="" width="500">
 
 Save, specify  the time resolution:
-<img src="img/time-manager-resolution.PNG" alt="" height="600">
+<img src="img/time-manager-resolution.PNG" alt="" width="600">
 
 And finally play your animation.
 
