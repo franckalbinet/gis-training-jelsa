@@ -39,6 +39,49 @@ Expression to be used: `array_to_string(array_reverse(string_to_array(reportingD
 Let's decompose it step by step:
 * `string_to_array(reportingD, '/')` changes `"25/03/2018"` to an array `["25", "03", "2018"]`
 * `array_reverse(...)` function will transform `["25", "03", "2018"]` to `["2018", "03", "25"]`
-* then finally `array_to_string(..., "-")` will transform `["2018", "03", "25"]` to '"2018-03-25"`
+* then finally `array_to_string(..., "-")` will transform `["2018", "03", "25"]` to `"2018-03-25"`
+
+Save your layer and don't forget to toggle off the editing mode of your layer.
+
+### 2. Thematic analysis and time dimension
+Now that we have a "TimeManager" compliant data/time attribute, let's style our layer. We will use for this example a **heatmap**.
+
+* **Heat map**
+See settings below:
+
+<img src="img/time-manager-heatmap.PNG" alt="" height="700">
+
+Note that "color1" of your "Color ramp" is set to transparent (click on the "Color Ramp" to access this setting).
+
+* **Time animation with TimeManager**
+
+Install and activate the **TimeManager** plugin, then,
+
+```
+[In QGIS Top Menu]
+Click on Plugins ▸ TimeManager ▸ Toggle visibility
+```
+
+By now, you should have a new "TimeManager" panel. 
+
+```
+[In QGIS TimeManager panel]
+Click on Settings ▸ Add Layer
+and reproduce the settings below:
+```
+<img src="img/time-manager-settings.PNG" alt="" height="500">
+
+Save, specify  the time resolution:
+<img src="img/time-manager-resolution.PNG" alt="" height="600">
+
+And finally play your animation.
+
+
+
+
+
+
+
+
 
 
