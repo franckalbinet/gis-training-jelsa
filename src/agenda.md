@@ -37,6 +37,7 @@ QGIS
   * [Time series animation](ts-animation.md)  &#10003;
   
   [OPTIONAL]
+  * [Ad hoc topic to be raised](ad-hocy.md) [During workshop]
   * ["Publication ready" map layout](pub-ready.md) [Available soon]
   * [Graphical modeler introduction](graph-modeler.md) [Available soon]
   
