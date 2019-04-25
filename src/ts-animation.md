@@ -2,23 +2,24 @@
 
 ## Targeted skills
 By the end of this module, you will know how to:
-* create an animated thematic map based on available time attribute
 * prepare a time attribute compliant to TimeManager plugin
+* create an animated thematic map based on available time attribute
+
 
 ## Data
-* Romania admin layer
-* ASF outbreaks
 
 ## Exercise outline & memos
+In this module, we will explore our ASF outbreaks dataset through its time dimension: outbreaks "reporting date". There are basically two ways to visualize the time dimensions:
+* using the small-multiple technique (a series of mini maps showing data at different time);
+* or time animation.
 
-In this module, given our previous analysis, we would like to perform a fine-grained analysis of the outbreak situation at a higher resolution (large scale) in the south west of Romania, especially in these counties:
-* Ialomița
-* Constanța
-* Călărași
-* Brăila
-* Tulcea
+We will focuse on this second case in this module in order to quickly explore oubtreaks over time in Romania between 2018 and 2019. Such animation is often showcased in online newspapers, blog posts, ... as it is a compelling and convenient way to convey simple messages. Several tools allow to produce such visualization, for instance Carto https://carto.com/ as shown in this example: [Heatmap time animation - Bird Flue cases over time worldwide 2004-2016](https://franckalbinet.carto.com/viz/87f08d5e-953c-11e6-b30e-0e3ebc282e83/embed_map), ...
 
-### 1. Data preparation
+In this module, we will use QGIS "TimeManager" plugin to quickly explore the time dimension of our dataset. This plugin has been ported to QGIS3 (with few minor bugs but situation might improve in near future) and require some preliminary data preparation as highlitghed below.
+
+### 2. Data preparation
+
+array_to_string(array_reverse(string_to_array(reportingD, '/')), '-')
 
 Your tasks:
 
