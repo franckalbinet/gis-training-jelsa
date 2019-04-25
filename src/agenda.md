@@ -4,8 +4,8 @@
 
 ## [Day 1 | Fundamentals](day1.md)
 INTRODUCTION
-  * Course objectives & setup [lectures & hands-on sessions] &#10003;
-  * [Course resources and materials](resources.md) &#10003;
+  * Course objectives & setup [lectures & hands-on sessions] 
+  * [Course resources and materials](resources.md)
 
 FUNDAMENTAL GIS CONCEPTS
 
@@ -19,22 +19,26 @@ Presentations can be found [here](../ppt) covering the following topics:
 
 
 QGIS
-  * [Set up](qgis-setup.md) &#10003;
-  * [Handling GIS layers (opening, overlaying, selecting features, basic styling and saving as project)](handling-gis-layers.md) &#10003;
-  * [Handling Coordinate Reference Systems (CRS)](handling-crs.md) &#10003;
-  * [Importing geo-referenced EMPRES Excel files & overlaying it over Google Maps](importing-excel.md) &#10003;
-
+  * [Set up](qgis-setup.md) 
+  * [Handling GIS layers (opening, overlaying, selecting features, basic styling and saving as project)](handling-gis-layers.md) 
+  * [Handling Coordinate Reference Systems (CRS)](handling-crs.md)
+  * [Importing geo-referenced EMPRES Excel files & overlaying it over Google Maps](importing-excel.md)
+  
 ## [Day 2 | African Swine Fever (ASF) Romania Use Case](day2.md)
-  * [Acquiring, exploring (Heatmap) and preparing data](acquiring-and-preparing.md) &#10003;
-  * [Creating infected/surveillance zones "buffers"](buffers.md) &#10003;
-  * [Zonal statistics - administrative levels and thematic mapping](zonal-statistics-thematic-mapping.md) &#10003;
-  * [Spatial aggregation techniques - grid/hexagons](spatial-agg.md) &#10003;
+  * [Acquiring, exploring (Heatmap) and preparing data](acquiring-and-preparing.md) 
+  * [Creating infected/surveillance zones "buffers"](buffers.md)
+  * [Zonal statistics - administrative levels and thematic mapping](zonal-statistics-thematic-mapping.md)
+  * [Spatial aggregation techniques - grid/hexagons](spatial-agg.md) 
   
 
 ## [Day 3 | More advanced analysis](day3.md)
-  * [Digital Elevation Model and raster analysis](dem-raster.md) &#10003;
-  * [Interpolation techniques: an introduction](interpolation.md) &#10003;
-  * [Time series animation](ts-animation.md)
-  * ["Publication ready" map layout](pub-ready.md)
+  * [Digital Elevation Model and raster analysis](dem-raster.md) 
+  * [Interpolation techniques: an introduction](interpolation.md) 
+  * [Time series animation](ts-animation.md) 
+  
+  [OPTIONAL]
+  * [Ad hoc topic to be raised](ad-hocy.md) [During workshop]
+  * ["Publication ready" map layout](pub-ready.md) [Available soon]
+  * [Graphical modeler introduction](graph-modeler.md) [Available soon]
   
 
