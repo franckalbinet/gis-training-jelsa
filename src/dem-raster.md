@@ -38,7 +38,7 @@ A series of about 12 raster layers (images) will be downloaded
 
 
 ### 2. Merging and clipping SRTM individual scene
-The next steps are to merge (combine all scenes in one single one) and clip the extent based on `gadm-rom-level1-sw.shp` layer.
+The next steps are to merge (combine all scenes in one single one) and clip the extent based on `gadm-rom-level1-se-dissolved.shp` layer.
 
 To **merge** all downloaded scenes:
 
