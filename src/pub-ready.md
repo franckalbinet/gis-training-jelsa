@@ -13,7 +13,7 @@ We will use the layers and thematic analysis produced for Southeast Romania in p
 The main goal of this module is to exemplify a static/paper map production using QGIS through its dedicated "Print Layout..." design space. The outcome of this module should be a map as shown below:
 
 
-![img/publication-ready-map.PNG](img/publication-ready-map.PNG)
+<img src="img/publication-ready-map.PNG" width=600>
 
 
-**A Pdf version of this map can be found [here]()**
+**A full resolution fdf version of this map can be found [here](https://github.com/franckalbinet/gis-training-jelsa/blob/master/src/img/publication-ready-map.pdf)**
