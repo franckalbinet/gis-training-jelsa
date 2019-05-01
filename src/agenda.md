@@ -35,10 +35,16 @@ QGIS
   * [Digital Elevation Model and raster analysis](dem-raster.md) 
   * [Interpolation techniques: an introduction](interpolation.md) 
   * [Time series animation](ts-animation.md) 
-  * ["Publication ready" map layout](pub-ready.md) [Available soon]
+  * ["Publication ready" map layout](pub-ready.md)
   
   [OPTIONAL]
   * [Ad hoc topics to be raised](ad-hoc.md) [During workshop]
   * [Graphical modeler introduction](graph-modeler.md) [Available soon]
   
+## [Day 4 | Remote Sensing](day4.md)
+  * Remote Sensing Data – The European Copernicus Programme, Dr. Matthias Schramm, Vienna University of Technology (TU Wien)
+
+## [Day 5 | Remote Sensing](day5.md)
+* Practical Use of Remote Sensing Data in Agriculture, Dr. Matthias Schramm, Vienna University of Technology (TU Wien)
+
 
