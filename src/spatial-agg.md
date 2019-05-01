@@ -13,7 +13,7 @@ By the end of this module, you will know how to:
 
 ## Exercise outline & memos
 
-In this module, given our previous analysis, we would like to perform a fine-grained analysis of the outbreak situation at a higher resolution (large scale) in the south west of Romania, especially in these counties:
+In this module, given our previous analysis, we would like to perform a fine-grained analysis of the outbreak situation at a higher resolution (large scale) in the southeast Romania, especially in these counties:
 * Ialomița
 * Constanța
 * Călărași
