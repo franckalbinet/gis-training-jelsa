@@ -26,7 +26,7 @@ Your tasks:
 
 1. Select counties of interest and save it as new layer
 2. Select ASF outbreaks data covered by this new area of interest
-3. Save it as a new layer
+3. Save it as a new layer "gadm-rom-level1-se-dissolved"
 
 Once, this is done, we would like to create a new layer with one single feature/polygon representing the contour of the area formed by 5 counties selected. This transformation is called **dissolving**. 
 
