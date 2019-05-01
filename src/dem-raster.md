@@ -19,7 +19,7 @@ The **Shuttle Radar Topography Mission (SRTM)** is an international research eff
 
 These data are directly accessible and downloadable from QGIS via the "SRTM Downloader" plugin. Install this plugin. To use it you will need to create an account (free) at https://urs.earthdata.nasa.gov/
 
-In day 2, we have focused our analysis on the south-west part of Romania. We will continue analysing this region.
+In day 2, we have focused our analysis on the southeast part of Romania. We will continue analysing this region.
 
 Your task:
 * Open the following layer `data/gadm36_ROU_shp/gadm-rom-level1-sw.shp`
