@@ -35,10 +35,10 @@ QGIS
   * [Digital Elevation Model and raster analysis](dem-raster.md) 
   * [Interpolation techniques: an introduction](interpolation.md) 
   * [Time series animation](ts-animation.md) 
+  * ["Publication ready" map layout](pub-ready.md) [Available soon]
   
   [OPTIONAL]
-  * [Ad hoc topic to be raised](ad-hocy.md) [During workshop]
-  * ["Publication ready" map layout](pub-ready.md) [Available soon]
+  * [Ad hoc topics to be raised](ad-hoc.md) [During workshop]
   * [Graphical modeler introduction](graph-modeler.md) [Available soon]
   
 
