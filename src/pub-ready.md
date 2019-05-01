@@ -2,16 +2,15 @@
 
 ## Targeted skills
 By the end of this module, you will know how to:
-* generate a grid with custom extent and resolution
-* clip a grid with a polygon layer
-* aggregate spatially an underlying point layers and produce a thematic map (but you know it already!)
+* create a publication ready map
 
 
 ## Data
-* Romania admin layer
-* ASF outbreaks
 
 ## Exercise outline & memos
+
+
+
 
 In this module, given our previous analysis, we would like to perform a fine-grained analysis of the outbreak situation at a higher resolution (large scale) in the south west of Romania, especially in these counties:
 * Ialomița
