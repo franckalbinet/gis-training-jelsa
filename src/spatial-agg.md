@@ -13,7 +13,7 @@ By the end of this module, you will know how to:
 
 ## Exercise outline & memos
 
-In this module, given our previous analysis, we would like to perform a fine-grained analysis of the outbreak situation at a higher resolution (large scale) in the south west of Romania, especially in these counties:
+In this module, given our previous analysis, we would like to perform a fine-grained analysis of the outbreak situation at a higher resolution (large scale) in Southeast Romania, especially in these counties:
 * Ialomița
 * Constanța
 * Călărași
@@ -24,19 +24,18 @@ In this module, given our previous analysis, we would like to perform a fine-gra
 
 Your tasks:
 
-1. Select counties of interest and save it as new layer
-2. Select ASF outbreaks data covered by this new area of interest
-3. Save it as a new layer
-
-Once, this is done, we would like to create a new layer with one single feature/polygon representing the contour of the area formed by 5 counties selected. This transformation is called **dissolving**. 
+1. Select counties of interest and save it as new layer `gadm-rom-level1-se.shp`
+2. Once, this is done, we would like to create a new layer with one single feature/polygon representing the contour of the area formed by 5 counties selected. This transformation is called **dissolving**. 
 
 ```
 [In QGIS Processing Toolbox]
 Write "dissolve" in the search box
 and double-click on Vector geometry  ▸ Dissolve 
 Choose the layer of interest and "Run"
-Save it as new layer
+Save it as new layer "gadm-rom-level1-se-dissolved"
 ```
+
+3. Last, select ASF outbreaks data covered by this new area of interest and save as `asf-20180101-20190410-se.shp`
 
 By now, you should have three new layers (see screenshot below):
 * the ASF outbreaks for these 5 counties

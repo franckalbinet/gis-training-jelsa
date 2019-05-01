@@ -2,7 +2,7 @@
 
 *The use of Open-Source, Real-Time Geo-Visualization in Monitoring Vectors and Vector Borne Diseases, Jelsa, Croatia, 13-17 May 2019*
 
-## [Day 1 | Fundamentals](day1.md)
+## [Day 1 | Fundamentals](agenda.md)
 INTRODUCTION
   * Course objectives & setup [lectures & hands-on sessions] 
   * [Course resources and materials](resources.md)
@@ -24,21 +24,27 @@ QGIS
   * [Handling Coordinate Reference Systems (CRS)](handling-crs.md)
   * [Importing geo-referenced EMPRES Excel files & overlaying it over Google Maps](importing-excel.md)
   
-## [Day 2 | African Swine Fever (ASF) Romania Use Case](day2.md)
+## [Day 2 | African Swine Fever (ASF) Romania Use Case](agenda.md)
   * [Acquiring, exploring (Heatmap) and preparing data](acquiring-and-preparing.md) 
   * [Creating infected/surveillance zones "buffers"](buffers.md)
   * [Zonal statistics - administrative levels and thematic mapping](zonal-statistics-thematic-mapping.md)
   * [Spatial aggregation techniques - grid/hexagons](spatial-agg.md) 
   
 
-## [Day 3 | More advanced analysis](day3.md)
+## [Day 3 | More advanced analysis](agenda.md)
   * [Digital Elevation Model and raster analysis](dem-raster.md) 
   * [Interpolation techniques: an introduction](interpolation.md) 
   * [Time series animation](ts-animation.md) 
+  * ["Publication ready" map layout](pub-ready.md)
   
   [OPTIONAL]
-  * [Ad hoc topic to be raised](ad-hocy.md) [During workshop]
-  * ["Publication ready" map layout](pub-ready.md) [Available soon]
+  * [Ad hoc topics to be raised](ad-hoc.md) [During workshop]
   * [Graphical modeler introduction](graph-modeler.md) [Available soon]
   
+## [Day 4 | Remote Sensing](agenda.md)
+  * **Remote Sensing Data – The European Copernicus Programme**, Dr. Matthias Schramm, Vienna University of Technology 
+
+## [Day 5 | Remote Sensing](agenda.md)
+* **Practical Use of Remote Sensing Data in Agriculture**, Dr. Matthias Schramm, Vienna University of Technology 
+
 

@@ -19,10 +19,10 @@ The **Shuttle Radar Topography Mission (SRTM)** is an international research eff
 
 These data are directly accessible and downloadable from QGIS via the "SRTM Downloader" plugin. Install this plugin. To use it you will need to create an account (free) at https://urs.earthdata.nasa.gov/
 
-In day 2, we have focused our analysis on the south-west part of Romania. We will continue analysing this region.
+In day 2, we have focused our analysis on the southeast part of Romania. We will continue analysing this region.
 
 Your task:
-* Open the following layer `data/gadm36_ROU_shp/gadm-rom-level1-sw.shp`
+* Open the southeast romania dissolved layer (created in Day 2) `gadm-rom-level1-se-dissolved.shp`
 * Zoom to the extent of this newly loaded layer
 * then:
 
@@ -38,7 +38,7 @@ A series of about 12 raster layers (images) will be downloaded
 
 
 ### 2. Merging and clipping SRTM individual scene
-The next steps are to merge (combine all scenes in one single one) and clip the extent based on `gadm-rom-level1-sw.shp` layer.
+The next steps are to merge (combine all scenes in one single one) and clip the extent based on `gadm-rom-level1-se-dissolved.shp` layer.
 
 To **merge** all downloaded scenes:
 
@@ -53,7 +53,7 @@ Double click on GDAL ▸ Raster Miscellaneous ▸ Merge
 You should have a new layer named "Merged"
 Remove all individual scenes and keep this last one.
 
-Now, let's **clip** this last layer using our `gadm-rom-level1-sw.shp` layer:
+Now, let's **clip** this last layer using our `gadm-rom-level1-se-dissolved.shp` layer:
 
 ```
 [In QGIS Processing Toolbox]
