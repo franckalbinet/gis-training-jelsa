@@ -42,9 +42,9 @@ QGIS
   * [Graphical modeler introduction](graph-modeler.md) [Available soon]
   
 ## [Day 4 | Remote Sensing](agenda.md)
-  * Remote Sensing Data – The European Copernicus Programme, Dr. Matthias Schramm, Vienna University of Technology (TU Wien)
+  * **Remote Sensing Data – The European Copernicus Programme**, Dr. Matthias Schramm, Vienna University of Technology (TU Wien)
 
 ## [Day 5 | Remote Sensing](agenda.md)
-* Practical Use of Remote Sensing Data in Agriculture, Dr. Matthias Schramm, Vienna University of Technology (TU Wien)
+* **Practical Use of Remote Sensing Data in Agriculture**, Dr. Matthias Schramm, Vienna University of Technology (TU Wien)
 
 
