@@ -53,7 +53,7 @@ Double click on GDAL ▸ Raster Miscellaneous ▸ Merge
 You should have a new layer named "Merged"
 Remove all individual scenes and keep this last one.
 
-Now, let's **clip** this last layer using our `gadm-rom-level1-sw.shp` layer:
+Now, let's **clip** this last layer using our `gadm-rom-level1-se-dissolved.shp` layer:
 
 ```
 [In QGIS Processing Toolbox]
