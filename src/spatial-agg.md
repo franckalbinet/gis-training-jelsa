@@ -35,7 +35,7 @@ Once, this is done, we would like to create a new layer with one single feature/
 Write "dissolve" in the search box
 and double-click on Vector geometry  ▸ Dissolve 
 Choose the layer of interest and "Run"
-Save it as new layer
+Save it as new layer "gadm-rom-level1-se-dissolved"
 ```
 
 By now, you should have three new layers (see screenshot below):
