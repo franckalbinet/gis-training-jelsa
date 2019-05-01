@@ -22,7 +22,7 @@ These data are directly accessible and downloadable from QGIS via the "SRTM Down
 In day 2, we have focused our analysis on the southeast part of Romania. We will continue analysing this region.
 
 Your task:
-* Open the following layer `data/gadm36_ROU_shp/gadm-rom-level1-sw.shp`
+* Open the southeast romania dissolved layer (created in Day 2) `gadm-rom-level1-se-dissolved.shp`
 * Zoom to the extent of this newly loaded layer
 * then:
 
