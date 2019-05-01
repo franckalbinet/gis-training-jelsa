@@ -12,9 +12,7 @@ We will use the layers and thematic analysis produced for Southeast Romania in p
 ## Exercise outline & memos
 The main goal of this module is to exemplify a static/paper map production using QGIS through its dedicated "Print Layout..." design space. The outcome of this module should be a map as shown below:
 
-
-<img src="img/publication-ready-map.PNG" width=600>
-
+![img/publication-ready-map.PNG](img/publication-ready-map.PNG)
 
 **A full resolution fdf version of this map can be found [here](https://github.com/franckalbinet/gis-training-jelsa/blob/master/src/img/publication-ready-map.pdf)**
 
@@ -29,7 +27,7 @@ Project ▸ New Print Layout...
 
 You will end up with a new window "Print Layout..." design space where you will insert, manipulate and specify the key items of your maps as show below:
 
-<img src="img/print-layout-overview.PNG" width=800>
+![img/print-layout-overview.PNG](img/print-layout-overview.PNG)
 
 This new window includes a multitude  of icons, menu items, options, ... The whole workflow will be illustrated and exemplified several times live during the workshop. The main idea is the following:
 
