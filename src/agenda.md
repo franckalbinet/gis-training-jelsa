@@ -41,12 +41,12 @@ QGIS
   * [Graphical modeler introduction](graph-modeler.md) [Available soon]
   
 ## [Day 4 | Remote Sensing](agenda.md)
-  * **Remote Sensing Data – The European Copernicus Programme**, Dr. Matthias Schramm, Vienna University of Technology 
-  * **Remote Sensing Data and NASA Earth Observations for Health Applications**, Radina Soebiyanto, NASA
+  * Remote Sensing Data – The European Copernicus Programme, Dr. Matthias Schramm, Vienna University of Technology 
+  * Remote Sensing Data and NASA Earth Observations for Health Applications, Radina Soebiyanto, NASA
   * On-demand/ad hoc QGIS, GIS and Data Analysis [to be covered when schedule allows]
  
 ## [Day 5 | Remote Sensing](agenda.md)
-* **Practical Use of Remote Sensing Data in Agriculture**, Dr. Matthias Schramm, Vienna University of Technology 
-* **Using Satellite-Derived Data to Assess Climate Variability and Monitoring Disease Outbreaks**, Radina Soebiyanto, NASA
+* Practical Use of Remote Sensing Data in Agriculture, Dr. Matthias Schramm, Vienna University of Technology 
+* Using Satellite-Derived Data to Assess Climate Variability and Monitoring Disease Outbreaks, Radina Soebiyanto, NASA
 * On-demand/ad hoc QGIS, GIS and Data Analysis [to be covered when schedule allows]
 
