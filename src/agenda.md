@@ -5,6 +5,7 @@
 ## [Day 1 | Fundamentals](agenda.md)
 INTRODUCTION
   * Course objectives & setup [lectures & hands-on sessions] 
+  * Use of Geo Visualization Technologies Monitoring Animal and Zoonotic Diseases - Background for the Training Course, Ivancho Naletoski, IAEA
   * [Course resources and materials](resources.md)
 
 FUNDAMENTAL GIS CONCEPTS
@@ -15,8 +16,6 @@ Presentations can be found [here](../ppt) covering the following topics:
   * Coordinate Reference System (CRS)
   * Notion of scale
   * Different maps for different purposes: thematic mapping, Digital Elevation Models, topographic, ...
-  
-
 
 QGIS
   * [Set up](qgis-setup.md) 
