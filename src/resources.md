@@ -26,6 +26,7 @@
 ## GEOGRAPHICAL DATA SOURCES
 * [http://www.naturalearthdata.com/](http://www.naturalearthdata.com/)
 * [http://www.gadm.org/](http://www.gadm.org/)
+* [Romania places](https://mapcruzin.com/free-romania-arcgis-maps-shapefiles.htm)
 
 ## GLOSSARY
 * [QGIS User Interface Overview: Top Toolbars, Map Canvas, Layers list, Status Bar and side toolbar](https://docs.qgis.org/3.4/en/docs/user_manual/introduction/qgis_gui.html)
