@@ -33,4 +33,8 @@
 * [Shapefile - the de facto GIS vector format but proprietary](https://en.wikipedia.org/wiki/Shapefile)
 * [GeoPackage - the new GIS vector open format](https://www.geopackage.org/)
 
+## BOOKS FOR FURTHER STUDY
+* [Learn QGIS Fourth Edition](https://www.packtpub.com/application-development/learn-qgis-fourth-edition)
+* [QGIS Map Design](https://locatepress.com/qmd2)
+* [R for data science (free online)](https://r4ds.had.co.nz/)
 
