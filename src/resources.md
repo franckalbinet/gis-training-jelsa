@@ -37,5 +37,5 @@
 * [Learn QGIS Fourth Edition](https://www.packtpub.com/application-development/learn-qgis-fourth-edition)
 * [QGIS Map Design](https://locatepress.com/qmd2)
 * [R for data science (free online)](https://r4ds.had.co.nz/)
-* [Extremely useful GIS "SF (Simple Features for R)" package/library](https://r-spatial.github.io/sf)
+* [Extremely useful GIS **SF (Simple Features for R)** package/library](https://r-spatial.github.io/sf)
 
