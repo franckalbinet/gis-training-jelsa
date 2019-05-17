@@ -32,10 +32,10 @@
 * [QGIS User Interface Overview: Top Toolbars, Map Canvas, Layers list, Status Bar and side toolbar](https://docs.qgis.org/3.4/en/docs/user_manual/introduction/qgis_gui.html)
 * [Shapefile - the de facto GIS vector format but proprietary](https://en.wikipedia.org/wiki/Shapefile)
 * [GeoPackage - the new GIS vector open format](https://www.geopackage.org/)
-* [Extremely useful GIS "SF (Simple Features for R)" package/library](https://r-spatial.github.io/sf)
 
 ## BOOKS FOR FURTHER STUDY
 * [Learn QGIS Fourth Edition](https://www.packtpub.com/application-development/learn-qgis-fourth-edition)
 * [QGIS Map Design](https://locatepress.com/qmd2)
 * [R for data science (free online)](https://r4ds.had.co.nz/)
+* [Extremely useful GIS "SF (Simple Features for R)" package/library](https://r-spatial.github.io/sf)
 
